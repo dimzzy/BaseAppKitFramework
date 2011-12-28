@@ -12,4 +12,7 @@ mkdir -p $OUTPUT
 
 /Developer/usr/bin/xcodebuild -target BaseAppKit -configuration Release build || failed build;
 
-zip -r $OUTPUT/BaseAppKit.framework.zip $WORKSPACE/build/Release-iphoneuniversal/BaseAppKit.framework
+pushd
+cd $WORKSPACE/build/Release-iphoneuniversal
+zip -r $OUTPUT/BaseAppKit.framework.zip BaseAppKit.framework
+popd
