@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BaseAppKitFramework' target in the 'BaseAppKitFramework' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
