@@ -6,17 +6,279 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		1F2C618E14AB5D74006918F1 /* BaseAppKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1F2C618F14AB5D74006918F1 /* Build configuration list for PBXAggregateTarget "BaseAppKit" */;
+			buildPhases = (
+				1F2C619214AB5D95006918F1 /* ShellScript */,
+				1F2C619314AB5DAE006918F1 /* CopyFiles */,
+				1F2C61C514AB6122006918F1 /* CopyFiles */,
+			);
+			dependencies = (
+			);
+			name = BaseAppKit;
+			productName = BaseAppKit;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		1F2C60EE14AB5C90006918F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2C60ED14AB5C90006918F1 /* Foundation.framework */; };
-		1F2C60F414AB5C90006918F1 /* BaseAppKitFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C60F314AB5C90006918F1 /* BaseAppKitFramework.m */; };
+		1F2C614814AB5D17006918F1 /* BAActivityView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C60FC14AB5D17006918F1 /* BAActivityView.h */; };
+		1F2C614914AB5D17006918F1 /* BAActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C60FD14AB5D17006918F1 /* BAActivityView.m */; };
+		1F2C614A14AB5D17006918F1 /* BACommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C60FE14AB5D17006918F1 /* BACommon.h */; };
+		1F2C614B14AB5D17006918F1 /* BADataLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C60FF14AB5D17006918F1 /* BADataLoader.h */; };
+		1F2C614C14AB5D17006918F1 /* BADataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C610014AB5D17006918F1 /* BADataLoader.m */; };
+		1F2C614D14AB5D17006918F1 /* BAEditableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C610114AB5D17006918F1 /* BAEditableCell.h */; };
+		1F2C614E14AB5D17006918F1 /* BAEditableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C610214AB5D17006918F1 /* BAEditableCell.m */; };
+		1F2C614F14AB5D17006918F1 /* BAGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C610314AB5D17006918F1 /* BAGradientView.h */; };
+		1F2C615014AB5D17006918F1 /* BAGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C610414AB5D17006918F1 /* BAGradientView.m */; };
+		1F2C615114AB5D17006918F1 /* BAImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C610514AB5D17006918F1 /* BAImageLoader.h */; };
+		1F2C615214AB5D17006918F1 /* BAImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C610614AB5D17006918F1 /* BAImageLoader.m */; };
+		1F2C615314AB5D17006918F1 /* BAJSONLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C610714AB5D17006918F1 /* BAJSONLoader.h */; };
+		1F2C615414AB5D17006918F1 /* BAJSONLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C610814AB5D17006918F1 /* BAJSONLoader.m */; };
+		1F2C615514AB5D17006918F1 /* BAKeyboardTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C610914AB5D17006918F1 /* BAKeyboardTracker.h */; };
+		1F2C615614AB5D17006918F1 /* BAKeyboardTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C610A14AB5D17006918F1 /* BAKeyboardTracker.m */; };
+		1F2C615714AB5D17006918F1 /* BALabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C610B14AB5D17006918F1 /* BALabel.h */; };
+		1F2C615814AB5D17006918F1 /* BALabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C610C14AB5D17006918F1 /* BALabel.m */; };
+		1F2C615914AB5D17006918F1 /* BANetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C610D14AB5D17006918F1 /* BANetwork.h */; };
+		1F2C615A14AB5D17006918F1 /* BANetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C610E14AB5D17006918F1 /* BANetwork.m */; };
+		1F2C615B14AB5D17006918F1 /* BANetworkActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C610F14AB5D17006918F1 /* BANetworkActivity.h */; };
+		1F2C615C14AB5D17006918F1 /* BANetworkActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C611014AB5D17006918F1 /* BANetworkActivity.m */; };
+		1F2C615D14AB5D17006918F1 /* BAPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C611114AB5D17006918F1 /* BAPageControl.h */; };
+		1F2C615E14AB5D17006918F1 /* BAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C611214AB5D17006918F1 /* BAPageControl.m */; };
+		1F2C615F14AB5D17006918F1 /* BAPager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C611314AB5D17006918F1 /* BAPager.h */; };
+		1F2C616014AB5D17006918F1 /* BAPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C611414AB5D17006918F1 /* BAPager.m */; };
+		1F2C616114AB5D17006918F1 /* BAPersistentCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C611514AB5D17006918F1 /* BAPersistentCache.h */; };
+		1F2C616214AB5D17006918F1 /* BAPersistentCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C611614AB5D17006918F1 /* BAPersistentCache.m */; };
+		1F2C616314AB5D17006918F1 /* BAProgressLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C611714AB5D17006918F1 /* BAProgressLayer.h */; };
+		1F2C616414AB5D17006918F1 /* BAProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C611814AB5D17006918F1 /* BAProgressLayer.m */; };
+		1F2C616514AB5D17006918F1 /* BAProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C611914AB5D17006918F1 /* BAProgressView.h */; };
+		1F2C616614AB5D17006918F1 /* BAProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C611A14AB5D17006918F1 /* BAProgressView.m */; };
+		1F2C616714AB5D17006918F1 /* BARefreshHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C611B14AB5D17006918F1 /* BARefreshHeaderView.h */; };
+		1F2C616814AB5D17006918F1 /* BARefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C611C14AB5D17006918F1 /* BARefreshHeaderView.m */; };
+		1F2C616914AB5D17006918F1 /* BARemoteImageToggleItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C611D14AB5D17006918F1 /* BARemoteImageToggleItem.h */; };
+		1F2C616A14AB5D17006918F1 /* BARemoteImageToggleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C611E14AB5D17006918F1 /* BARemoteImageToggleItem.m */; };
+		1F2C616B14AB5D17006918F1 /* BARemoteImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C611F14AB5D17006918F1 /* BARemoteImageView.h */; };
+		1F2C616C14AB5D17006918F1 /* BARemoteImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C612014AB5D17006918F1 /* BARemoteImageView.m */; };
+		1F2C616D14AB5D17006918F1 /* BASeparatedTableProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C612114AB5D17006918F1 /* BASeparatedTableProvider.h */; };
+		1F2C616E14AB5D17006918F1 /* BASeparatedTableProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C612214AB5D17006918F1 /* BASeparatedTableProvider.m */; };
+		1F2C616F14AB5D17006918F1 /* BASequenceControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C612314AB5D17006918F1 /* BASequenceControl.h */; };
+		1F2C617014AB5D17006918F1 /* BASequenceControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C612414AB5D17006918F1 /* BASequenceControl.m */; };
+		1F2C617114AB5D17006918F1 /* BASimpleReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C612514AB5D17006918F1 /* BASimpleReusableView.h */; };
+		1F2C617214AB5D17006918F1 /* BASimpleReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C612614AB5D17006918F1 /* BASimpleReusableView.m */; };
+		1F2C617314AB5D17006918F1 /* BASwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C612714AB5D17006918F1 /* BASwitchCell.h */; };
+		1F2C617414AB5D17006918F1 /* BASwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C612814AB5D17006918F1 /* BASwitchCell.m */; };
+		1F2C617514AB5D17006918F1 /* BAToggleBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C612914AB5D17006918F1 /* BAToggleBar.h */; };
+		1F2C617614AB5D17006918F1 /* BAToggleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C612A14AB5D17006918F1 /* BAToggleBar.m */; };
+		1F2C617714AB5D17006918F1 /* BAToggleItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C612B14AB5D17006918F1 /* BAToggleItem.h */; };
+		1F2C617814AB5D17006918F1 /* BAToggleItemImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C612C14AB5D17006918F1 /* BAToggleItemImage.h */; };
+		1F2C617914AB5D17006918F1 /* BAToggleItemImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C612D14AB5D17006918F1 /* BAToggleItemImage.m */; };
+		1F2C617A14AB5D17006918F1 /* BAToggleItemLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C612E14AB5D17006918F1 /* BAToggleItemLabel.h */; };
+		1F2C617B14AB5D17006918F1 /* BAToggleItemLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C612F14AB5D17006918F1 /* BAToggleItemLabel.m */; };
+		1F2C617C14AB5D17006918F1 /* BAViewsCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C613014AB5D17006918F1 /* BAViewsCache.h */; };
+		1F2C617D14AB5D17006918F1 /* BAViewsCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C613114AB5D17006918F1 /* BAViewsCache.m */; };
+		1F2C617E14AB5D17006918F1 /* BAXMLLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C613214AB5D17006918F1 /* BAXMLLoader.h */; };
+		1F2C617F14AB5D17006918F1 /* BAXMLLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C613314AB5D17006918F1 /* BAXMLLoader.m */; };
+		1F2C618014AB5D17006918F1 /* BAXMLParserBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C613414AB5D17006918F1 /* BAXMLParserBase.h */; };
+		1F2C618114AB5D17006918F1 /* BAXMLParserBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C613514AB5D17006918F1 /* BAXMLParserBase.m */; };
+		1F2C618214AB5D17006918F1 /* NSDate+BADays.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C613B14AB5D17006918F1 /* NSDate+BADays.h */; };
+		1F2C618314AB5D17006918F1 /* NSDate+BADays.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C613C14AB5D17006918F1 /* NSDate+BADays.m */; };
+		1F2C618414AB5D17006918F1 /* NSDictionary+BAHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C613D14AB5D17006918F1 /* NSDictionary+BAHTTP.h */; };
+		1F2C618514AB5D17006918F1 /* NSDictionary+BAHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C613E14AB5D17006918F1 /* NSDictionary+BAHTTP.m */; };
+		1F2C618614AB5D17006918F1 /* NSString+BACoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C613F14AB5D17006918F1 /* NSString+BACoding.h */; };
+		1F2C618714AB5D17006918F1 /* NSString+BACoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C614014AB5D17006918F1 /* NSString+BACoding.m */; };
+		1F2C618814AB5D17006918F1 /* UINavigationController+BATransitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C614214AB5D17006918F1 /* UINavigationController+BATransitions.h */; };
+		1F2C618914AB5D17006918F1 /* UINavigationController+BATransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C614314AB5D17006918F1 /* UINavigationController+BATransitions.m */; };
+		1F2C618A14AB5D17006918F1 /* UITableView+BALoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C614414AB5D17006918F1 /* UITableView+BALoading.h */; };
+		1F2C618B14AB5D17006918F1 /* UITableView+BALoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C614514AB5D17006918F1 /* UITableView+BALoading.m */; };
+		1F2C618C14AB5D17006918F1 /* UIView+BACookie.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C614614AB5D17006918F1 /* UIView+BACookie.h */; };
+		1F2C618D14AB5D17006918F1 /* UIView+BACookie.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C614714AB5D17006918F1 /* UIView+BACookie.m */; };
+		1F2C619414AB5E11006918F1 /* BAActivityView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C60FC14AB5D17006918F1 /* BAActivityView.h */; };
+		1F2C619514AB5E11006918F1 /* BACommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C60FE14AB5D17006918F1 /* BACommon.h */; };
+		1F2C619614AB5E11006918F1 /* BADataLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C60FF14AB5D17006918F1 /* BADataLoader.h */; };
+		1F2C619714AB5E11006918F1 /* BAEditableCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610114AB5D17006918F1 /* BAEditableCell.h */; };
+		1F2C619814AB5E11006918F1 /* BAGradientView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610314AB5D17006918F1 /* BAGradientView.h */; };
+		1F2C619914AB5E11006918F1 /* BAImageLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610514AB5D17006918F1 /* BAImageLoader.h */; };
+		1F2C619A14AB5E11006918F1 /* BAJSONLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610714AB5D17006918F1 /* BAJSONLoader.h */; };
+		1F2C619B14AB5E11006918F1 /* BAKeyboardTracker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610914AB5D17006918F1 /* BAKeyboardTracker.h */; };
+		1F2C619C14AB5E11006918F1 /* BALabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610B14AB5D17006918F1 /* BALabel.h */; };
+		1F2C619D14AB5E11006918F1 /* BANetwork.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610D14AB5D17006918F1 /* BANetwork.h */; };
+		1F2C619E14AB5E11006918F1 /* BANetworkActivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610F14AB5D17006918F1 /* BANetworkActivity.h */; };
+		1F2C619F14AB5E11006918F1 /* BAPageControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611114AB5D17006918F1 /* BAPageControl.h */; };
+		1F2C61A014AB5E11006918F1 /* BAPager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611314AB5D17006918F1 /* BAPager.h */; };
+		1F2C61A114AB5E11006918F1 /* BAPersistentCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611514AB5D17006918F1 /* BAPersistentCache.h */; };
+		1F2C61A214AB5E11006918F1 /* BAProgressLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611714AB5D17006918F1 /* BAProgressLayer.h */; };
+		1F2C61A314AB5E11006918F1 /* BAProgressView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611914AB5D17006918F1 /* BAProgressView.h */; };
+		1F2C61A414AB5E11006918F1 /* BARefreshHeaderView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611B14AB5D17006918F1 /* BARefreshHeaderView.h */; };
+		1F2C61A514AB5E11006918F1 /* BARemoteImageToggleItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611D14AB5D17006918F1 /* BARemoteImageToggleItem.h */; };
+		1F2C61A614AB5E11006918F1 /* BARemoteImageView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611F14AB5D17006918F1 /* BARemoteImageView.h */; };
+		1F2C61A714AB5E11006918F1 /* BASeparatedTableProvider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612114AB5D17006918F1 /* BASeparatedTableProvider.h */; };
+		1F2C61A814AB5E11006918F1 /* BASequenceControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612314AB5D17006918F1 /* BASequenceControl.h */; };
+		1F2C61A914AB5E11006918F1 /* BASimpleReusableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612514AB5D17006918F1 /* BASimpleReusableView.h */; };
+		1F2C61AA14AB5E11006918F1 /* BASwitchCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612714AB5D17006918F1 /* BASwitchCell.h */; };
+		1F2C61AB14AB5E11006918F1 /* BAToggleBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612914AB5D17006918F1 /* BAToggleBar.h */; };
+		1F2C61AC14AB5E11006918F1 /* BAToggleItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612B14AB5D17006918F1 /* BAToggleItem.h */; };
+		1F2C61AD14AB5E11006918F1 /* BAToggleItemImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612C14AB5D17006918F1 /* BAToggleItemImage.h */; };
+		1F2C61AE14AB5E11006918F1 /* BAToggleItemLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612E14AB5D17006918F1 /* BAToggleItemLabel.h */; };
+		1F2C61AF14AB5E11006918F1 /* BAViewsCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613014AB5D17006918F1 /* BAViewsCache.h */; };
+		1F2C61B014AB5E11006918F1 /* BAXMLLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613214AB5D17006918F1 /* BAXMLLoader.h */; };
+		1F2C61B114AB5E11006918F1 /* BAXMLParserBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613414AB5D17006918F1 /* BAXMLParserBase.h */; };
+		1F2C61B214AB5E11006918F1 /* NSDate+BADays.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613B14AB5D17006918F1 /* NSDate+BADays.h */; };
+		1F2C61B314AB5E11006918F1 /* NSDictionary+BAHTTP.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613D14AB5D17006918F1 /* NSDictionary+BAHTTP.h */; };
+		1F2C61B414AB5E11006918F1 /* NSString+BACoding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613F14AB5D17006918F1 /* NSString+BACoding.h */; };
+		1F2C61B514AB5E11006918F1 /* UINavigationController+BATransitions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614214AB5D17006918F1 /* UINavigationController+BATransitions.h */; };
+		1F2C61B614AB5E11006918F1 /* UITableView+BALoading.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614414AB5D17006918F1 /* UITableView+BALoading.h */; };
+		1F2C61B714AB5E11006918F1 /* UIView+BACookie.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614614AB5D17006918F1 /* UIView+BACookie.h */; };
+		1F2C61B914AB5E3F006918F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2C61B814AB5E3F006918F1 /* UIKit.framework */; };
+		1F2C61BB14AB5E5A006918F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2C61BA14AB5E5A006918F1 /* QuartzCore.framework */; };
+		1F2C61C714AB613D006918F1 /* ba-sequence-item-active.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613714AB5D17006918F1 /* ba-sequence-item-active.png */; };
+		1F2C61C814AB613D006918F1 /* ba-sequence-item-active@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613814AB5D17006918F1 /* ba-sequence-item-active@2x.png */; };
+		1F2C61C914AB613D006918F1 /* ba-sequence-item-passive.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613914AB5D17006918F1 /* ba-sequence-item-passive.png */; };
+		1F2C61CA14AB613D006918F1 /* ba-sequence-item-passive@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613A14AB5D17006918F1 /* ba-sequence-item-passive@2x.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F2C619314AB5DAE006918F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal/${PRODUCT_NAME}.framework/Versions/A/Headers/";
+			dstSubfolderSpec = 0;
+			files = (
+				1F2C619414AB5E11006918F1 /* BAActivityView.h in CopyFiles */,
+				1F2C619514AB5E11006918F1 /* BACommon.h in CopyFiles */,
+				1F2C619614AB5E11006918F1 /* BADataLoader.h in CopyFiles */,
+				1F2C619714AB5E11006918F1 /* BAEditableCell.h in CopyFiles */,
+				1F2C619814AB5E11006918F1 /* BAGradientView.h in CopyFiles */,
+				1F2C619914AB5E11006918F1 /* BAImageLoader.h in CopyFiles */,
+				1F2C619A14AB5E11006918F1 /* BAJSONLoader.h in CopyFiles */,
+				1F2C619B14AB5E11006918F1 /* BAKeyboardTracker.h in CopyFiles */,
+				1F2C619C14AB5E11006918F1 /* BALabel.h in CopyFiles */,
+				1F2C619D14AB5E11006918F1 /* BANetwork.h in CopyFiles */,
+				1F2C619E14AB5E11006918F1 /* BANetworkActivity.h in CopyFiles */,
+				1F2C619F14AB5E11006918F1 /* BAPageControl.h in CopyFiles */,
+				1F2C61A014AB5E11006918F1 /* BAPager.h in CopyFiles */,
+				1F2C61A114AB5E11006918F1 /* BAPersistentCache.h in CopyFiles */,
+				1F2C61A214AB5E11006918F1 /* BAProgressLayer.h in CopyFiles */,
+				1F2C61A314AB5E11006918F1 /* BAProgressView.h in CopyFiles */,
+				1F2C61A414AB5E11006918F1 /* BARefreshHeaderView.h in CopyFiles */,
+				1F2C61A514AB5E11006918F1 /* BARemoteImageToggleItem.h in CopyFiles */,
+				1F2C61A614AB5E11006918F1 /* BARemoteImageView.h in CopyFiles */,
+				1F2C61A714AB5E11006918F1 /* BASeparatedTableProvider.h in CopyFiles */,
+				1F2C61A814AB5E11006918F1 /* BASequenceControl.h in CopyFiles */,
+				1F2C61A914AB5E11006918F1 /* BASimpleReusableView.h in CopyFiles */,
+				1F2C61AA14AB5E11006918F1 /* BASwitchCell.h in CopyFiles */,
+				1F2C61AB14AB5E11006918F1 /* BAToggleBar.h in CopyFiles */,
+				1F2C61AC14AB5E11006918F1 /* BAToggleItem.h in CopyFiles */,
+				1F2C61AD14AB5E11006918F1 /* BAToggleItemImage.h in CopyFiles */,
+				1F2C61AE14AB5E11006918F1 /* BAToggleItemLabel.h in CopyFiles */,
+				1F2C61AF14AB5E11006918F1 /* BAViewsCache.h in CopyFiles */,
+				1F2C61B014AB5E11006918F1 /* BAXMLLoader.h in CopyFiles */,
+				1F2C61B114AB5E11006918F1 /* BAXMLParserBase.h in CopyFiles */,
+				1F2C61B214AB5E11006918F1 /* NSDate+BADays.h in CopyFiles */,
+				1F2C61B314AB5E11006918F1 /* NSDictionary+BAHTTP.h in CopyFiles */,
+				1F2C61B414AB5E11006918F1 /* NSString+BACoding.h in CopyFiles */,
+				1F2C61B514AB5E11006918F1 /* UINavigationController+BATransitions.h in CopyFiles */,
+				1F2C61B614AB5E11006918F1 /* UITableView+BALoading.h in CopyFiles */,
+				1F2C61B714AB5E11006918F1 /* UIView+BACookie.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2C61C514AB6122006918F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal/${PRODUCT_NAME}.framework/Versions/A/Resources/";
+			dstSubfolderSpec = 0;
+			files = (
+				1F2C61C714AB613D006918F1 /* ba-sequence-item-active.png in CopyFiles */,
+				1F2C61C814AB613D006918F1 /* ba-sequence-item-active@2x.png in CopyFiles */,
+				1F2C61C914AB613D006918F1 /* ba-sequence-item-passive.png in CopyFiles */,
+				1F2C61CA14AB613D006918F1 /* ba-sequence-item-passive@2x.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1F2C60EA14AB5C90006918F1 /* libBaseAppKitFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBaseAppKitFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2C60ED14AB5C90006918F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1F2C60F114AB5C90006918F1 /* BaseAppKitFramework-Prefix.pch */ = {isa = PBXFileReference; path = "BaseAppKitFramework-Prefix.pch"; sourceTree = "<group>"; };
-		1F2C60F214AB5C90006918F1 /* BaseAppKitFramework.h */ = {isa = PBXFileReference; path = BaseAppKitFramework.h; sourceTree = "<group>"; };
-		1F2C60F314AB5C90006918F1 /* BaseAppKitFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseAppKitFramework.m; sourceTree = "<group>"; };
+		1F2C60F114AB5C90006918F1 /* BaseAppKitFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BaseAppKitFramework-Prefix.pch"; path = "BaseAppKitFramework/BaseAppKitFramework-Prefix.pch"; sourceTree = "<group>"; };
+		1F2C60FC14AB5D17006918F1 /* BAActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAActivityView.h; sourceTree = "<group>"; };
+		1F2C60FD14AB5D17006918F1 /* BAActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAActivityView.m; sourceTree = "<group>"; };
+		1F2C60FE14AB5D17006918F1 /* BACommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACommon.h; sourceTree = "<group>"; };
+		1F2C60FF14AB5D17006918F1 /* BADataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADataLoader.h; sourceTree = "<group>"; };
+		1F2C610014AB5D17006918F1 /* BADataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADataLoader.m; sourceTree = "<group>"; };
+		1F2C610114AB5D17006918F1 /* BAEditableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAEditableCell.h; sourceTree = "<group>"; };
+		1F2C610214AB5D17006918F1 /* BAEditableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAEditableCell.m; sourceTree = "<group>"; };
+		1F2C610314AB5D17006918F1 /* BAGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAGradientView.h; sourceTree = "<group>"; };
+		1F2C610414AB5D17006918F1 /* BAGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAGradientView.m; sourceTree = "<group>"; };
+		1F2C610514AB5D17006918F1 /* BAImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAImageLoader.h; sourceTree = "<group>"; };
+		1F2C610614AB5D17006918F1 /* BAImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAImageLoader.m; sourceTree = "<group>"; };
+		1F2C610714AB5D17006918F1 /* BAJSONLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAJSONLoader.h; sourceTree = "<group>"; };
+		1F2C610814AB5D17006918F1 /* BAJSONLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAJSONLoader.m; sourceTree = "<group>"; };
+		1F2C610914AB5D17006918F1 /* BAKeyboardTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAKeyboardTracker.h; sourceTree = "<group>"; };
+		1F2C610A14AB5D17006918F1 /* BAKeyboardTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAKeyboardTracker.m; sourceTree = "<group>"; };
+		1F2C610B14AB5D17006918F1 /* BALabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BALabel.h; sourceTree = "<group>"; };
+		1F2C610C14AB5D17006918F1 /* BALabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BALabel.m; sourceTree = "<group>"; };
+		1F2C610D14AB5D17006918F1 /* BANetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BANetwork.h; sourceTree = "<group>"; };
+		1F2C610E14AB5D17006918F1 /* BANetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BANetwork.m; sourceTree = "<group>"; };
+		1F2C610F14AB5D17006918F1 /* BANetworkActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BANetworkActivity.h; sourceTree = "<group>"; };
+		1F2C611014AB5D17006918F1 /* BANetworkActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BANetworkActivity.m; sourceTree = "<group>"; };
+		1F2C611114AB5D17006918F1 /* BAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAPageControl.h; sourceTree = "<group>"; };
+		1F2C611214AB5D17006918F1 /* BAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAPageControl.m; sourceTree = "<group>"; };
+		1F2C611314AB5D17006918F1 /* BAPager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAPager.h; sourceTree = "<group>"; };
+		1F2C611414AB5D17006918F1 /* BAPager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAPager.m; sourceTree = "<group>"; };
+		1F2C611514AB5D17006918F1 /* BAPersistentCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAPersistentCache.h; sourceTree = "<group>"; };
+		1F2C611614AB5D17006918F1 /* BAPersistentCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAPersistentCache.m; sourceTree = "<group>"; };
+		1F2C611714AB5D17006918F1 /* BAProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAProgressLayer.h; sourceTree = "<group>"; };
+		1F2C611814AB5D17006918F1 /* BAProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAProgressLayer.m; sourceTree = "<group>"; };
+		1F2C611914AB5D17006918F1 /* BAProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAProgressView.h; sourceTree = "<group>"; };
+		1F2C611A14AB5D17006918F1 /* BAProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAProgressView.m; sourceTree = "<group>"; };
+		1F2C611B14AB5D17006918F1 /* BARefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARefreshHeaderView.h; sourceTree = "<group>"; };
+		1F2C611C14AB5D17006918F1 /* BARefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARefreshHeaderView.m; sourceTree = "<group>"; };
+		1F2C611D14AB5D17006918F1 /* BARemoteImageToggleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARemoteImageToggleItem.h; sourceTree = "<group>"; };
+		1F2C611E14AB5D17006918F1 /* BARemoteImageToggleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARemoteImageToggleItem.m; sourceTree = "<group>"; };
+		1F2C611F14AB5D17006918F1 /* BARemoteImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARemoteImageView.h; sourceTree = "<group>"; };
+		1F2C612014AB5D17006918F1 /* BARemoteImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARemoteImageView.m; sourceTree = "<group>"; };
+		1F2C612114AB5D17006918F1 /* BASeparatedTableProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASeparatedTableProvider.h; sourceTree = "<group>"; };
+		1F2C612214AB5D17006918F1 /* BASeparatedTableProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASeparatedTableProvider.m; sourceTree = "<group>"; };
+		1F2C612314AB5D17006918F1 /* BASequenceControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASequenceControl.h; sourceTree = "<group>"; };
+		1F2C612414AB5D17006918F1 /* BASequenceControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASequenceControl.m; sourceTree = "<group>"; };
+		1F2C612514AB5D17006918F1 /* BASimpleReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASimpleReusableView.h; sourceTree = "<group>"; };
+		1F2C612614AB5D17006918F1 /* BASimpleReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASimpleReusableView.m; sourceTree = "<group>"; };
+		1F2C612714AB5D17006918F1 /* BASwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASwitchCell.h; sourceTree = "<group>"; };
+		1F2C612814AB5D17006918F1 /* BASwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASwitchCell.m; sourceTree = "<group>"; };
+		1F2C612914AB5D17006918F1 /* BAToggleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAToggleBar.h; sourceTree = "<group>"; };
+		1F2C612A14AB5D17006918F1 /* BAToggleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAToggleBar.m; sourceTree = "<group>"; };
+		1F2C612B14AB5D17006918F1 /* BAToggleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAToggleItem.h; sourceTree = "<group>"; };
+		1F2C612C14AB5D17006918F1 /* BAToggleItemImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAToggleItemImage.h; sourceTree = "<group>"; };
+		1F2C612D14AB5D17006918F1 /* BAToggleItemImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAToggleItemImage.m; sourceTree = "<group>"; };
+		1F2C612E14AB5D17006918F1 /* BAToggleItemLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAToggleItemLabel.h; sourceTree = "<group>"; };
+		1F2C612F14AB5D17006918F1 /* BAToggleItemLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAToggleItemLabel.m; sourceTree = "<group>"; };
+		1F2C613014AB5D17006918F1 /* BAViewsCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAViewsCache.h; sourceTree = "<group>"; };
+		1F2C613114AB5D17006918F1 /* BAViewsCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAViewsCache.m; sourceTree = "<group>"; };
+		1F2C613214AB5D17006918F1 /* BAXMLLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAXMLLoader.h; sourceTree = "<group>"; };
+		1F2C613314AB5D17006918F1 /* BAXMLLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAXMLLoader.m; sourceTree = "<group>"; };
+		1F2C613414AB5D17006918F1 /* BAXMLParserBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAXMLParserBase.h; sourceTree = "<group>"; };
+		1F2C613514AB5D17006918F1 /* BAXMLParserBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAXMLParserBase.m; sourceTree = "<group>"; };
+		1F2C613714AB5D17006918F1 /* ba-sequence-item-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ba-sequence-item-active.png"; sourceTree = "<group>"; };
+		1F2C613814AB5D17006918F1 /* ba-sequence-item-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ba-sequence-item-active@2x.png"; sourceTree = "<group>"; };
+		1F2C613914AB5D17006918F1 /* ba-sequence-item-passive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ba-sequence-item-passive.png"; sourceTree = "<group>"; };
+		1F2C613A14AB5D17006918F1 /* ba-sequence-item-passive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ba-sequence-item-passive@2x.png"; sourceTree = "<group>"; };
+		1F2C613B14AB5D17006918F1 /* NSDate+BADays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BADays.h"; sourceTree = "<group>"; };
+		1F2C613C14AB5D17006918F1 /* NSDate+BADays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BADays.m"; sourceTree = "<group>"; };
+		1F2C613D14AB5D17006918F1 /* NSDictionary+BAHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BAHTTP.h"; sourceTree = "<group>"; };
+		1F2C613E14AB5D17006918F1 /* NSDictionary+BAHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BAHTTP.m"; sourceTree = "<group>"; };
+		1F2C613F14AB5D17006918F1 /* NSString+BACoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BACoding.h"; sourceTree = "<group>"; };
+		1F2C614014AB5D17006918F1 /* NSString+BACoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BACoding.m"; sourceTree = "<group>"; };
+		1F2C614214AB5D17006918F1 /* UINavigationController+BATransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+BATransitions.h"; sourceTree = "<group>"; };
+		1F2C614314AB5D17006918F1 /* UINavigationController+BATransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+BATransitions.m"; sourceTree = "<group>"; };
+		1F2C614414AB5D17006918F1 /* UITableView+BALoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+BALoading.h"; sourceTree = "<group>"; };
+		1F2C614514AB5D17006918F1 /* UITableView+BALoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BALoading.m"; sourceTree = "<group>"; };
+		1F2C614614AB5D17006918F1 /* UIView+BACookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BACookie.h"; sourceTree = "<group>"; };
+		1F2C614714AB5D17006918F1 /* UIView+BACookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BACookie.m"; sourceTree = "<group>"; };
+		1F2C61B814AB5E3F006918F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F2C61BA14AB5E5A006918F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +286,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F2C61BB14AB5E5A006918F1 /* QuartzCore.framework in Frameworks */,
+				1F2C61B914AB5E3F006918F1 /* UIKit.framework in Frameworks */,
 				1F2C60EE14AB5C90006918F1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,7 +298,8 @@
 		1F2C60DF14AB5C90006918F1 = {
 			isa = PBXGroup;
 			children = (
-				1F2C60EF14AB5C90006918F1 /* BaseAppKitFramework */,
+				1F2C60FA14AB5D17006918F1 /* BaseAppKit */,
+				1F2C60F114AB5C90006918F1 /* BaseAppKitFramework-Prefix.pch */,
 				1F2C60EC14AB5C90006918F1 /* Frameworks */,
 				1F2C60EB14AB5C90006918F1 /* Products */,
 			);
@@ -51,27 +316,100 @@
 		1F2C60EC14AB5C90006918F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F2C61BA14AB5E5A006918F1 /* QuartzCore.framework */,
+				1F2C61B814AB5E3F006918F1 /* UIKit.framework */,
 				1F2C60ED14AB5C90006918F1 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1F2C60EF14AB5C90006918F1 /* BaseAppKitFramework */ = {
+		1F2C60FA14AB5D17006918F1 /* BaseAppKit */ = {
 			isa = PBXGroup;
 			children = (
-				1F2C60F214AB5C90006918F1 /* BaseAppKitFramework.h */,
-				1F2C60F314AB5C90006918F1 /* BaseAppKitFramework.m */,
-				1F2C60F014AB5C90006918F1 /* Supporting Files */,
+				1F2C613614AB5D17006918F1 /* Images */,
+				1F2C60FC14AB5D17006918F1 /* BAActivityView.h */,
+				1F2C60FD14AB5D17006918F1 /* BAActivityView.m */,
+				1F2C60FE14AB5D17006918F1 /* BACommon.h */,
+				1F2C60FF14AB5D17006918F1 /* BADataLoader.h */,
+				1F2C610014AB5D17006918F1 /* BADataLoader.m */,
+				1F2C610114AB5D17006918F1 /* BAEditableCell.h */,
+				1F2C610214AB5D17006918F1 /* BAEditableCell.m */,
+				1F2C610314AB5D17006918F1 /* BAGradientView.h */,
+				1F2C610414AB5D17006918F1 /* BAGradientView.m */,
+				1F2C610514AB5D17006918F1 /* BAImageLoader.h */,
+				1F2C610614AB5D17006918F1 /* BAImageLoader.m */,
+				1F2C610714AB5D17006918F1 /* BAJSONLoader.h */,
+				1F2C610814AB5D17006918F1 /* BAJSONLoader.m */,
+				1F2C610914AB5D17006918F1 /* BAKeyboardTracker.h */,
+				1F2C610A14AB5D17006918F1 /* BAKeyboardTracker.m */,
+				1F2C610B14AB5D17006918F1 /* BALabel.h */,
+				1F2C610C14AB5D17006918F1 /* BALabel.m */,
+				1F2C610D14AB5D17006918F1 /* BANetwork.h */,
+				1F2C610E14AB5D17006918F1 /* BANetwork.m */,
+				1F2C610F14AB5D17006918F1 /* BANetworkActivity.h */,
+				1F2C611014AB5D17006918F1 /* BANetworkActivity.m */,
+				1F2C611114AB5D17006918F1 /* BAPageControl.h */,
+				1F2C611214AB5D17006918F1 /* BAPageControl.m */,
+				1F2C611314AB5D17006918F1 /* BAPager.h */,
+				1F2C611414AB5D17006918F1 /* BAPager.m */,
+				1F2C611514AB5D17006918F1 /* BAPersistentCache.h */,
+				1F2C611614AB5D17006918F1 /* BAPersistentCache.m */,
+				1F2C611714AB5D17006918F1 /* BAProgressLayer.h */,
+				1F2C611814AB5D17006918F1 /* BAProgressLayer.m */,
+				1F2C611914AB5D17006918F1 /* BAProgressView.h */,
+				1F2C611A14AB5D17006918F1 /* BAProgressView.m */,
+				1F2C611B14AB5D17006918F1 /* BARefreshHeaderView.h */,
+				1F2C611C14AB5D17006918F1 /* BARefreshHeaderView.m */,
+				1F2C611D14AB5D17006918F1 /* BARemoteImageToggleItem.h */,
+				1F2C611E14AB5D17006918F1 /* BARemoteImageToggleItem.m */,
+				1F2C611F14AB5D17006918F1 /* BARemoteImageView.h */,
+				1F2C612014AB5D17006918F1 /* BARemoteImageView.m */,
+				1F2C612114AB5D17006918F1 /* BASeparatedTableProvider.h */,
+				1F2C612214AB5D17006918F1 /* BASeparatedTableProvider.m */,
+				1F2C612314AB5D17006918F1 /* BASequenceControl.h */,
+				1F2C612414AB5D17006918F1 /* BASequenceControl.m */,
+				1F2C612514AB5D17006918F1 /* BASimpleReusableView.h */,
+				1F2C612614AB5D17006918F1 /* BASimpleReusableView.m */,
+				1F2C612714AB5D17006918F1 /* BASwitchCell.h */,
+				1F2C612814AB5D17006918F1 /* BASwitchCell.m */,
+				1F2C612914AB5D17006918F1 /* BAToggleBar.h */,
+				1F2C612A14AB5D17006918F1 /* BAToggleBar.m */,
+				1F2C612B14AB5D17006918F1 /* BAToggleItem.h */,
+				1F2C612C14AB5D17006918F1 /* BAToggleItemImage.h */,
+				1F2C612D14AB5D17006918F1 /* BAToggleItemImage.m */,
+				1F2C612E14AB5D17006918F1 /* BAToggleItemLabel.h */,
+				1F2C612F14AB5D17006918F1 /* BAToggleItemLabel.m */,
+				1F2C613014AB5D17006918F1 /* BAViewsCache.h */,
+				1F2C613114AB5D17006918F1 /* BAViewsCache.m */,
+				1F2C613214AB5D17006918F1 /* BAXMLLoader.h */,
+				1F2C613314AB5D17006918F1 /* BAXMLLoader.m */,
+				1F2C613414AB5D17006918F1 /* BAXMLParserBase.h */,
+				1F2C613514AB5D17006918F1 /* BAXMLParserBase.m */,
+				1F2C613B14AB5D17006918F1 /* NSDate+BADays.h */,
+				1F2C613C14AB5D17006918F1 /* NSDate+BADays.m */,
+				1F2C613D14AB5D17006918F1 /* NSDictionary+BAHTTP.h */,
+				1F2C613E14AB5D17006918F1 /* NSDictionary+BAHTTP.m */,
+				1F2C613F14AB5D17006918F1 /* NSString+BACoding.h */,
+				1F2C614014AB5D17006918F1 /* NSString+BACoding.m */,
+				1F2C614214AB5D17006918F1 /* UINavigationController+BATransitions.h */,
+				1F2C614314AB5D17006918F1 /* UINavigationController+BATransitions.m */,
+				1F2C614414AB5D17006918F1 /* UITableView+BALoading.h */,
+				1F2C614514AB5D17006918F1 /* UITableView+BALoading.m */,
+				1F2C614614AB5D17006918F1 /* UIView+BACookie.h */,
+				1F2C614714AB5D17006918F1 /* UIView+BACookie.m */,
 			);
-			path = BaseAppKitFramework;
+			path = BaseAppKit;
 			sourceTree = "<group>";
 		};
-		1F2C60F014AB5C90006918F1 /* Supporting Files */ = {
+		1F2C613614AB5D17006918F1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				1F2C60F114AB5C90006918F1 /* BaseAppKitFramework-Prefix.pch */,
+				1F2C613714AB5D17006918F1 /* ba-sequence-item-active.png */,
+				1F2C613814AB5D17006918F1 /* ba-sequence-item-active@2x.png */,
+				1F2C613914AB5D17006918F1 /* ba-sequence-item-passive.png */,
+				1F2C613A14AB5D17006918F1 /* ba-sequence-item-passive@2x.png */,
 			);
-			name = "Supporting Files";
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +419,42 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F2C614814AB5D17006918F1 /* BAActivityView.h in Headers */,
+				1F2C614A14AB5D17006918F1 /* BACommon.h in Headers */,
+				1F2C614B14AB5D17006918F1 /* BADataLoader.h in Headers */,
+				1F2C614D14AB5D17006918F1 /* BAEditableCell.h in Headers */,
+				1F2C614F14AB5D17006918F1 /* BAGradientView.h in Headers */,
+				1F2C615114AB5D17006918F1 /* BAImageLoader.h in Headers */,
+				1F2C615314AB5D17006918F1 /* BAJSONLoader.h in Headers */,
+				1F2C615514AB5D17006918F1 /* BAKeyboardTracker.h in Headers */,
+				1F2C615714AB5D17006918F1 /* BALabel.h in Headers */,
+				1F2C615914AB5D17006918F1 /* BANetwork.h in Headers */,
+				1F2C615B14AB5D17006918F1 /* BANetworkActivity.h in Headers */,
+				1F2C615D14AB5D17006918F1 /* BAPageControl.h in Headers */,
+				1F2C615F14AB5D17006918F1 /* BAPager.h in Headers */,
+				1F2C616114AB5D17006918F1 /* BAPersistentCache.h in Headers */,
+				1F2C616314AB5D17006918F1 /* BAProgressLayer.h in Headers */,
+				1F2C616514AB5D17006918F1 /* BAProgressView.h in Headers */,
+				1F2C616714AB5D17006918F1 /* BARefreshHeaderView.h in Headers */,
+				1F2C616914AB5D17006918F1 /* BARemoteImageToggleItem.h in Headers */,
+				1F2C616B14AB5D17006918F1 /* BARemoteImageView.h in Headers */,
+				1F2C616D14AB5D17006918F1 /* BASeparatedTableProvider.h in Headers */,
+				1F2C616F14AB5D17006918F1 /* BASequenceControl.h in Headers */,
+				1F2C617114AB5D17006918F1 /* BASimpleReusableView.h in Headers */,
+				1F2C617314AB5D17006918F1 /* BASwitchCell.h in Headers */,
+				1F2C617514AB5D17006918F1 /* BAToggleBar.h in Headers */,
+				1F2C617714AB5D17006918F1 /* BAToggleItem.h in Headers */,
+				1F2C617814AB5D17006918F1 /* BAToggleItemImage.h in Headers */,
+				1F2C617A14AB5D17006918F1 /* BAToggleItemLabel.h in Headers */,
+				1F2C617C14AB5D17006918F1 /* BAViewsCache.h in Headers */,
+				1F2C617E14AB5D17006918F1 /* BAXMLLoader.h in Headers */,
+				1F2C618014AB5D17006918F1 /* BAXMLParserBase.h in Headers */,
+				1F2C618214AB5D17006918F1 /* NSDate+BADays.h in Headers */,
+				1F2C618414AB5D17006918F1 /* NSDictionary+BAHTTP.h in Headers */,
+				1F2C618614AB5D17006918F1 /* NSString+BACoding.h in Headers */,
+				1F2C618814AB5D17006918F1 /* UINavigationController+BATransitions.h in Headers */,
+				1F2C618A14AB5D17006918F1 /* UITableView+BALoading.h in Headers */,
+				1F2C618C14AB5D17006918F1 /* UIView+BACookie.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,16 +499,66 @@
 			projectRoot = "";
 			targets = (
 				1F2C60E914AB5C90006918F1 /* BaseAppKitFramework */,
+				1F2C618E14AB5D74006918F1 /* BaseAppKit */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F2C619214AB5D95006918F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "xcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphonesimulator -target ${PROJECT_NAME} -configuration ${CONFIGURATION} clean build\n\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphoneos -target ${PROJECT_NAME} -configuration ${CONFIGURATION} clean build\n\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\" &&\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" &&\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\" &&\nUNIVERSAL_LIBRARY_PATH=\"${UNIVERSAL_LIBRARY_DIR}/${PRODUCT_NAME}\" &&\nFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}/${PRODUCT_NAME}.framework\" &&\n\n# Create framework directory structure.\nrm -rf \"${FRAMEWORK}\" &&\nmkdir -p \"${UNIVERSAL_LIBRARY_DIR}\" &&\nmkdir -p \"${FRAMEWORK}/Versions/A/Headers\" &&\nmkdir -p \"${FRAMEWORK}/Versions/A/Resources\" &&\n\n# Generate universal binary for the device and simulator.\nlipo \"${SIMULATOR_LIBRARY_PATH}\" \"${DEVICE_LIBRARY_PATH}\" -create -output \"${UNIVERSAL_LIBRARY_PATH}\" &&\n\n# Move files to appropriate locations in framework paths.\ncp \"${UNIVERSAL_LIBRARY_PATH}\" \"${FRAMEWORK}/Versions/A\" &&\nln -s \"A\" \"${FRAMEWORK}/Versions/Current\" &&\nln -s \"Versions/Current/Headers\" \"${FRAMEWORK}/Headers\" &&\nln -s \"Versions/Current/Resources\" \"${FRAMEWORK}/Resources\" &&\nln -s \"Versions/Current/${PRODUCT_NAME}\" \"${FRAMEWORK}/${PRODUCT_NAME}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1F2C60E614AB5C90006918F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F2C60F414AB5C90006918F1 /* BaseAppKitFramework.m in Sources */,
+				1F2C614914AB5D17006918F1 /* BAActivityView.m in Sources */,
+				1F2C614C14AB5D17006918F1 /* BADataLoader.m in Sources */,
+				1F2C614E14AB5D17006918F1 /* BAEditableCell.m in Sources */,
+				1F2C615014AB5D17006918F1 /* BAGradientView.m in Sources */,
+				1F2C615214AB5D17006918F1 /* BAImageLoader.m in Sources */,
+				1F2C615414AB5D17006918F1 /* BAJSONLoader.m in Sources */,
+				1F2C615614AB5D17006918F1 /* BAKeyboardTracker.m in Sources */,
+				1F2C615814AB5D17006918F1 /* BALabel.m in Sources */,
+				1F2C615A14AB5D17006918F1 /* BANetwork.m in Sources */,
+				1F2C615C14AB5D17006918F1 /* BANetworkActivity.m in Sources */,
+				1F2C615E14AB5D17006918F1 /* BAPageControl.m in Sources */,
+				1F2C616014AB5D17006918F1 /* BAPager.m in Sources */,
+				1F2C616214AB5D17006918F1 /* BAPersistentCache.m in Sources */,
+				1F2C616414AB5D17006918F1 /* BAProgressLayer.m in Sources */,
+				1F2C616614AB5D17006918F1 /* BAProgressView.m in Sources */,
+				1F2C616814AB5D17006918F1 /* BARefreshHeaderView.m in Sources */,
+				1F2C616A14AB5D17006918F1 /* BARemoteImageToggleItem.m in Sources */,
+				1F2C616C14AB5D17006918F1 /* BARemoteImageView.m in Sources */,
+				1F2C616E14AB5D17006918F1 /* BASeparatedTableProvider.m in Sources */,
+				1F2C617014AB5D17006918F1 /* BASequenceControl.m in Sources */,
+				1F2C617214AB5D17006918F1 /* BASimpleReusableView.m in Sources */,
+				1F2C617414AB5D17006918F1 /* BASwitchCell.m in Sources */,
+				1F2C617614AB5D17006918F1 /* BAToggleBar.m in Sources */,
+				1F2C617914AB5D17006918F1 /* BAToggleItemImage.m in Sources */,
+				1F2C617B14AB5D17006918F1 /* BAToggleItemLabel.m in Sources */,
+				1F2C617D14AB5D17006918F1 /* BAViewsCache.m in Sources */,
+				1F2C617F14AB5D17006918F1 /* BAXMLLoader.m in Sources */,
+				1F2C618114AB5D17006918F1 /* BAXMLParserBase.m in Sources */,
+				1F2C618314AB5D17006918F1 /* NSDate+BADays.m in Sources */,
+				1F2C618514AB5D17006918F1 /* NSDictionary+BAHTTP.m in Sources */,
+				1F2C618714AB5D17006918F1 /* NSString+BACoding.m in Sources */,
+				1F2C618914AB5D17006918F1 /* UINavigationController+BATransitions.m in Sources */,
+				1F2C618B14AB5D17006918F1 /* UITableView+BALoading.m in Sources */,
+				1F2C618D14AB5D17006918F1 /* UIView+BACookie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +569,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					i386,
+					armv7,
+					armv6,
+				);
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -159,8 +587,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -168,15 +597,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COPY_PHASE_STRIP = YES;
+				ARCHS = (
+					i386,
+					armv7,
+					armv6,
+				);
+				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -205,6 +639,20 @@
 			};
 			name = Release;
 		};
+		1F2C619014AB5D74006918F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F2C619114AB5D74006918F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -224,6 +672,16 @@
 				1F2C60F914AB5C90006918F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F2C618F14AB5D74006918F1 /* Build configuration list for PBXAggregateTarget "BaseAppKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2C619014AB5D74006918F1 /* Debug */,
+				1F2C619114AB5D74006918F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

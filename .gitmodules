@@ -1,0 +1,3 @@
+[submodule "BaseAppKit"]
+	path = BaseAppKit
+	url = https://github.com/dimzzy/BaseAppKit.git
