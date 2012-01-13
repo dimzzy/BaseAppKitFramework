@@ -94,48 +94,54 @@
 		1F2C618B14AB5D17006918F1 /* UITableView+BALoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C614514AB5D17006918F1 /* UITableView+BALoading.m */; };
 		1F2C618C14AB5D17006918F1 /* UIView+BACookie.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C614614AB5D17006918F1 /* UIView+BACookie.h */; };
 		1F2C618D14AB5D17006918F1 /* UIView+BACookie.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C614714AB5D17006918F1 /* UIView+BACookie.m */; };
-		1F2C619414AB5E11006918F1 /* BAActivityView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C60FC14AB5D17006918F1 /* BAActivityView.h */; };
-		1F2C619514AB5E11006918F1 /* BACommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C60FE14AB5D17006918F1 /* BACommon.h */; };
-		1F2C619614AB5E11006918F1 /* BADataLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C60FF14AB5D17006918F1 /* BADataLoader.h */; };
-		1F2C619714AB5E11006918F1 /* BAEditableCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610114AB5D17006918F1 /* BAEditableCell.h */; };
-		1F2C619814AB5E11006918F1 /* BAGradientView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610314AB5D17006918F1 /* BAGradientView.h */; };
-		1F2C619914AB5E11006918F1 /* BAImageLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610514AB5D17006918F1 /* BAImageLoader.h */; };
-		1F2C619A14AB5E11006918F1 /* BAJSONLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610714AB5D17006918F1 /* BAJSONLoader.h */; };
-		1F2C619B14AB5E11006918F1 /* BAKeyboardTracker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610914AB5D17006918F1 /* BAKeyboardTracker.h */; };
-		1F2C619C14AB5E11006918F1 /* BALabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610B14AB5D17006918F1 /* BALabel.h */; };
-		1F2C619D14AB5E11006918F1 /* BANetwork.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610D14AB5D17006918F1 /* BANetwork.h */; };
-		1F2C619E14AB5E11006918F1 /* BANetworkActivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610F14AB5D17006918F1 /* BANetworkActivity.h */; };
-		1F2C619F14AB5E11006918F1 /* BAPageControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611114AB5D17006918F1 /* BAPageControl.h */; };
-		1F2C61A014AB5E11006918F1 /* BAPager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611314AB5D17006918F1 /* BAPager.h */; };
-		1F2C61A114AB5E11006918F1 /* BAPersistentCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611514AB5D17006918F1 /* BAPersistentCache.h */; };
-		1F2C61A214AB5E11006918F1 /* BAProgressLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611714AB5D17006918F1 /* BAProgressLayer.h */; };
-		1F2C61A314AB5E11006918F1 /* BAProgressView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611914AB5D17006918F1 /* BAProgressView.h */; };
-		1F2C61A414AB5E11006918F1 /* BARefreshHeaderView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611B14AB5D17006918F1 /* BARefreshHeaderView.h */; };
-		1F2C61A514AB5E11006918F1 /* BARemoteImageToggleItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611D14AB5D17006918F1 /* BARemoteImageToggleItem.h */; };
-		1F2C61A614AB5E11006918F1 /* BARemoteImageView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611F14AB5D17006918F1 /* BARemoteImageView.h */; };
-		1F2C61A714AB5E11006918F1 /* BASeparatedTableProvider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612114AB5D17006918F1 /* BASeparatedTableProvider.h */; };
-		1F2C61A814AB5E11006918F1 /* BASequenceControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612314AB5D17006918F1 /* BASequenceControl.h */; };
-		1F2C61A914AB5E11006918F1 /* BASimpleReusableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612514AB5D17006918F1 /* BASimpleReusableView.h */; };
-		1F2C61AA14AB5E11006918F1 /* BASwitchCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612714AB5D17006918F1 /* BASwitchCell.h */; };
-		1F2C61AB14AB5E11006918F1 /* BAToggleBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612914AB5D17006918F1 /* BAToggleBar.h */; };
-		1F2C61AC14AB5E11006918F1 /* BAToggleItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612B14AB5D17006918F1 /* BAToggleItem.h */; };
-		1F2C61AD14AB5E11006918F1 /* BAToggleItemImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612C14AB5D17006918F1 /* BAToggleItemImage.h */; };
-		1F2C61AE14AB5E11006918F1 /* BAToggleItemLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612E14AB5D17006918F1 /* BAToggleItemLabel.h */; };
-		1F2C61AF14AB5E11006918F1 /* BAViewsCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613014AB5D17006918F1 /* BAViewsCache.h */; };
-		1F2C61B014AB5E11006918F1 /* BAXMLLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613214AB5D17006918F1 /* BAXMLLoader.h */; };
-		1F2C61B114AB5E11006918F1 /* BAXMLParserBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613414AB5D17006918F1 /* BAXMLParserBase.h */; };
-		1F2C61B214AB5E11006918F1 /* NSDate+BADays.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613B14AB5D17006918F1 /* NSDate+BADays.h */; };
-		1F2C61B314AB5E11006918F1 /* NSDictionary+BAHTTP.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613D14AB5D17006918F1 /* NSDictionary+BAHTTP.h */; };
-		1F2C61B414AB5E11006918F1 /* NSString+BACoding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613F14AB5D17006918F1 /* NSString+BACoding.h */; };
-		1F2C61B514AB5E11006918F1 /* UINavigationController+BATransitions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614214AB5D17006918F1 /* UINavigationController+BATransitions.h */; };
-		1F2C61B614AB5E11006918F1 /* UITableView+BALoading.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614414AB5D17006918F1 /* UITableView+BALoading.h */; };
-		1F2C61B714AB5E11006918F1 /* UIView+BACookie.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614614AB5D17006918F1 /* UIView+BACookie.h */; };
 		1F2C61B914AB5E3F006918F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2C61B814AB5E3F006918F1 /* UIKit.framework */; };
 		1F2C61BB14AB5E5A006918F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2C61BA14AB5E5A006918F1 /* QuartzCore.framework */; };
 		1F2C61C714AB613D006918F1 /* ba-sequence-item-active.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613714AB5D17006918F1 /* ba-sequence-item-active.png */; };
 		1F2C61C814AB613D006918F1 /* ba-sequence-item-active@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613814AB5D17006918F1 /* ba-sequence-item-active@2x.png */; };
 		1F2C61C914AB613D006918F1 /* ba-sequence-item-passive.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613914AB5D17006918F1 /* ba-sequence-item-passive.png */; };
 		1F2C61CA14AB613D006918F1 /* ba-sequence-item-passive@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613A14AB5D17006918F1 /* ba-sequence-item-passive@2x.png */; };
+		1F7BE47C14C07573009664D6 /* BaseAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7BE47314C07573009664D6 /* BaseAppKit.h */; };
+		1F7BE47D14C07573009664D6 /* BaseAppKitCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7BE47414C07573009664D6 /* BaseAppKitCore.h */; };
+		1F7BE47E14C07573009664D6 /* BaseAppKitUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7BE47514C07573009664D6 /* BaseAppKitUI.h */; };
+		1F7BE48314C075C9009664D6 /* BaseAppKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F7BE47314C07573009664D6 /* BaseAppKit.h */; };
+		1F7BE48414C075C9009664D6 /* BaseAppKitCore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F7BE47414C07573009664D6 /* BaseAppKitCore.h */; };
+		1F7BE48514C075C9009664D6 /* BaseAppKitUI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F7BE47514C07573009664D6 /* BaseAppKitUI.h */; };
+		1F7BE48614C07617009664D6 /* BAActivityView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C60FC14AB5D17006918F1 /* BAActivityView.h */; };
+		1F7BE48714C07617009664D6 /* BACommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C60FE14AB5D17006918F1 /* BACommon.h */; };
+		1F7BE48814C07617009664D6 /* BADataLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C60FF14AB5D17006918F1 /* BADataLoader.h */; };
+		1F7BE48914C07617009664D6 /* BAEditableCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610114AB5D17006918F1 /* BAEditableCell.h */; };
+		1F7BE48A14C07617009664D6 /* BAGradientView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610314AB5D17006918F1 /* BAGradientView.h */; };
+		1F7BE48B14C07617009664D6 /* BAImageLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610514AB5D17006918F1 /* BAImageLoader.h */; };
+		1F7BE48C14C07617009664D6 /* BAJSONLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610714AB5D17006918F1 /* BAJSONLoader.h */; };
+		1F7BE48D14C07617009664D6 /* BAKeyboardTracker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610914AB5D17006918F1 /* BAKeyboardTracker.h */; };
+		1F7BE48E14C07617009664D6 /* BALabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610B14AB5D17006918F1 /* BALabel.h */; };
+		1F7BE48F14C07617009664D6 /* BANetwork.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610D14AB5D17006918F1 /* BANetwork.h */; };
+		1F7BE49014C07617009664D6 /* BANetworkActivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C610F14AB5D17006918F1 /* BANetworkActivity.h */; };
+		1F7BE49114C07617009664D6 /* BAPageControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611114AB5D17006918F1 /* BAPageControl.h */; };
+		1F7BE49214C07617009664D6 /* BAPager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611314AB5D17006918F1 /* BAPager.h */; };
+		1F7BE49314C07617009664D6 /* BAPersistentCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611514AB5D17006918F1 /* BAPersistentCache.h */; };
+		1F7BE49414C07617009664D6 /* BAProgressLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611714AB5D17006918F1 /* BAProgressLayer.h */; };
+		1F7BE49514C07617009664D6 /* BAProgressView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611914AB5D17006918F1 /* BAProgressView.h */; };
+		1F7BE49614C07617009664D6 /* BARefreshHeaderView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611B14AB5D17006918F1 /* BARefreshHeaderView.h */; };
+		1F7BE49714C07617009664D6 /* BARemoteImageToggleItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611D14AB5D17006918F1 /* BARemoteImageToggleItem.h */; };
+		1F7BE49814C07617009664D6 /* BARemoteImageView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C611F14AB5D17006918F1 /* BARemoteImageView.h */; };
+		1F7BE49914C07617009664D6 /* BASeparatedTableProvider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612114AB5D17006918F1 /* BASeparatedTableProvider.h */; };
+		1F7BE49A14C07617009664D6 /* BASequenceControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612314AB5D17006918F1 /* BASequenceControl.h */; };
+		1F7BE49B14C07617009664D6 /* BASimpleReusableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612514AB5D17006918F1 /* BASimpleReusableView.h */; };
+		1F7BE49C14C07617009664D6 /* BASwitchCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612714AB5D17006918F1 /* BASwitchCell.h */; };
+		1F7BE49D14C07617009664D6 /* BAToggleBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612914AB5D17006918F1 /* BAToggleBar.h */; };
+		1F7BE49E14C07617009664D6 /* BAToggleItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612B14AB5D17006918F1 /* BAToggleItem.h */; };
+		1F7BE49F14C07617009664D6 /* BAToggleItemImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612C14AB5D17006918F1 /* BAToggleItemImage.h */; };
+		1F7BE4A014C07617009664D6 /* BAToggleItemLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C612E14AB5D17006918F1 /* BAToggleItemLabel.h */; };
+		1F7BE4A114C07617009664D6 /* BAViewsCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613014AB5D17006918F1 /* BAViewsCache.h */; };
+		1F7BE4A214C07617009664D6 /* BAXMLLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613214AB5D17006918F1 /* BAXMLLoader.h */; };
+		1F7BE4A314C07617009664D6 /* BAXMLParserBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613414AB5D17006918F1 /* BAXMLParserBase.h */; };
+		1F7BE4A414C07617009664D6 /* NSDate+BADays.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613B14AB5D17006918F1 /* NSDate+BADays.h */; };
+		1F7BE4A514C07617009664D6 /* NSDictionary+BAHTTP.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613D14AB5D17006918F1 /* NSDictionary+BAHTTP.h */; };
+		1F7BE4A614C07617009664D6 /* NSString+BACoding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613F14AB5D17006918F1 /* NSString+BACoding.h */; };
+		1F7BE4A714C07617009664D6 /* UINavigationController+BATransitions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614214AB5D17006918F1 /* UINavigationController+BATransitions.h */; };
+		1F7BE4A814C07617009664D6 /* UITableView+BALoading.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614414AB5D17006918F1 /* UITableView+BALoading.h */; };
+		1F7BE4A914C07617009664D6 /* UIView+BACookie.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614614AB5D17006918F1 /* UIView+BACookie.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -145,42 +151,45 @@
 			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal/${PRODUCT_NAME}.framework/Versions/A/Headers/";
 			dstSubfolderSpec = 0;
 			files = (
-				1F2C619414AB5E11006918F1 /* BAActivityView.h in CopyFiles */,
-				1F2C619514AB5E11006918F1 /* BACommon.h in CopyFiles */,
-				1F2C619614AB5E11006918F1 /* BADataLoader.h in CopyFiles */,
-				1F2C619714AB5E11006918F1 /* BAEditableCell.h in CopyFiles */,
-				1F2C619814AB5E11006918F1 /* BAGradientView.h in CopyFiles */,
-				1F2C619914AB5E11006918F1 /* BAImageLoader.h in CopyFiles */,
-				1F2C619A14AB5E11006918F1 /* BAJSONLoader.h in CopyFiles */,
-				1F2C619B14AB5E11006918F1 /* BAKeyboardTracker.h in CopyFiles */,
-				1F2C619C14AB5E11006918F1 /* BALabel.h in CopyFiles */,
-				1F2C619D14AB5E11006918F1 /* BANetwork.h in CopyFiles */,
-				1F2C619E14AB5E11006918F1 /* BANetworkActivity.h in CopyFiles */,
-				1F2C619F14AB5E11006918F1 /* BAPageControl.h in CopyFiles */,
-				1F2C61A014AB5E11006918F1 /* BAPager.h in CopyFiles */,
-				1F2C61A114AB5E11006918F1 /* BAPersistentCache.h in CopyFiles */,
-				1F2C61A214AB5E11006918F1 /* BAProgressLayer.h in CopyFiles */,
-				1F2C61A314AB5E11006918F1 /* BAProgressView.h in CopyFiles */,
-				1F2C61A414AB5E11006918F1 /* BARefreshHeaderView.h in CopyFiles */,
-				1F2C61A514AB5E11006918F1 /* BARemoteImageToggleItem.h in CopyFiles */,
-				1F2C61A614AB5E11006918F1 /* BARemoteImageView.h in CopyFiles */,
-				1F2C61A714AB5E11006918F1 /* BASeparatedTableProvider.h in CopyFiles */,
-				1F2C61A814AB5E11006918F1 /* BASequenceControl.h in CopyFiles */,
-				1F2C61A914AB5E11006918F1 /* BASimpleReusableView.h in CopyFiles */,
-				1F2C61AA14AB5E11006918F1 /* BASwitchCell.h in CopyFiles */,
-				1F2C61AB14AB5E11006918F1 /* BAToggleBar.h in CopyFiles */,
-				1F2C61AC14AB5E11006918F1 /* BAToggleItem.h in CopyFiles */,
-				1F2C61AD14AB5E11006918F1 /* BAToggleItemImage.h in CopyFiles */,
-				1F2C61AE14AB5E11006918F1 /* BAToggleItemLabel.h in CopyFiles */,
-				1F2C61AF14AB5E11006918F1 /* BAViewsCache.h in CopyFiles */,
-				1F2C61B014AB5E11006918F1 /* BAXMLLoader.h in CopyFiles */,
-				1F2C61B114AB5E11006918F1 /* BAXMLParserBase.h in CopyFiles */,
-				1F2C61B214AB5E11006918F1 /* NSDate+BADays.h in CopyFiles */,
-				1F2C61B314AB5E11006918F1 /* NSDictionary+BAHTTP.h in CopyFiles */,
-				1F2C61B414AB5E11006918F1 /* NSString+BACoding.h in CopyFiles */,
-				1F2C61B514AB5E11006918F1 /* UINavigationController+BATransitions.h in CopyFiles */,
-				1F2C61B614AB5E11006918F1 /* UITableView+BALoading.h in CopyFiles */,
-				1F2C61B714AB5E11006918F1 /* UIView+BACookie.h in CopyFiles */,
+				1F7BE48614C07617009664D6 /* BAActivityView.h in CopyFiles */,
+				1F7BE48714C07617009664D6 /* BACommon.h in CopyFiles */,
+				1F7BE48814C07617009664D6 /* BADataLoader.h in CopyFiles */,
+				1F7BE48914C07617009664D6 /* BAEditableCell.h in CopyFiles */,
+				1F7BE48A14C07617009664D6 /* BAGradientView.h in CopyFiles */,
+				1F7BE48B14C07617009664D6 /* BAImageLoader.h in CopyFiles */,
+				1F7BE48C14C07617009664D6 /* BAJSONLoader.h in CopyFiles */,
+				1F7BE48D14C07617009664D6 /* BAKeyboardTracker.h in CopyFiles */,
+				1F7BE48E14C07617009664D6 /* BALabel.h in CopyFiles */,
+				1F7BE48F14C07617009664D6 /* BANetwork.h in CopyFiles */,
+				1F7BE49014C07617009664D6 /* BANetworkActivity.h in CopyFiles */,
+				1F7BE49114C07617009664D6 /* BAPageControl.h in CopyFiles */,
+				1F7BE49214C07617009664D6 /* BAPager.h in CopyFiles */,
+				1F7BE49314C07617009664D6 /* BAPersistentCache.h in CopyFiles */,
+				1F7BE49414C07617009664D6 /* BAProgressLayer.h in CopyFiles */,
+				1F7BE49514C07617009664D6 /* BAProgressView.h in CopyFiles */,
+				1F7BE49614C07617009664D6 /* BARefreshHeaderView.h in CopyFiles */,
+				1F7BE49714C07617009664D6 /* BARemoteImageToggleItem.h in CopyFiles */,
+				1F7BE49814C07617009664D6 /* BARemoteImageView.h in CopyFiles */,
+				1F7BE49914C07617009664D6 /* BASeparatedTableProvider.h in CopyFiles */,
+				1F7BE49A14C07617009664D6 /* BASequenceControl.h in CopyFiles */,
+				1F7BE49B14C07617009664D6 /* BASimpleReusableView.h in CopyFiles */,
+				1F7BE49C14C07617009664D6 /* BASwitchCell.h in CopyFiles */,
+				1F7BE49D14C07617009664D6 /* BAToggleBar.h in CopyFiles */,
+				1F7BE49E14C07617009664D6 /* BAToggleItem.h in CopyFiles */,
+				1F7BE49F14C07617009664D6 /* BAToggleItemImage.h in CopyFiles */,
+				1F7BE4A014C07617009664D6 /* BAToggleItemLabel.h in CopyFiles */,
+				1F7BE4A114C07617009664D6 /* BAViewsCache.h in CopyFiles */,
+				1F7BE4A214C07617009664D6 /* BAXMLLoader.h in CopyFiles */,
+				1F7BE4A314C07617009664D6 /* BAXMLParserBase.h in CopyFiles */,
+				1F7BE4A414C07617009664D6 /* NSDate+BADays.h in CopyFiles */,
+				1F7BE4A514C07617009664D6 /* NSDictionary+BAHTTP.h in CopyFiles */,
+				1F7BE4A614C07617009664D6 /* NSString+BACoding.h in CopyFiles */,
+				1F7BE4A714C07617009664D6 /* UINavigationController+BATransitions.h in CopyFiles */,
+				1F7BE4A814C07617009664D6 /* UITableView+BALoading.h in CopyFiles */,
+				1F7BE4A914C07617009664D6 /* UIView+BACookie.h in CopyFiles */,
+				1F7BE48314C075C9009664D6 /* BaseAppKit.h in CopyFiles */,
+				1F7BE48414C075C9009664D6 /* BaseAppKitCore.h in CopyFiles */,
+				1F7BE48514C075C9009664D6 /* BaseAppKitUI.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +288,9 @@
 		1F2C614714AB5D17006918F1 /* UIView+BACookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BACookie.m"; sourceTree = "<group>"; };
 		1F2C61B814AB5E3F006918F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1F2C61BA14AB5E5A006918F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1F7BE47314C07573009664D6 /* BaseAppKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAppKit.h; sourceTree = "<group>"; };
+		1F7BE47414C07573009664D6 /* BaseAppKitCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAppKitCore.h; sourceTree = "<group>"; };
+		1F7BE47514C07573009664D6 /* BaseAppKitUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAppKitUI.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,6 +338,9 @@
 		1F2C60FA14AB5D17006918F1 /* BaseAppKit */ = {
 			isa = PBXGroup;
 			children = (
+				1F7BE47314C07573009664D6 /* BaseAppKit.h */,
+				1F7BE47414C07573009664D6 /* BaseAppKitCore.h */,
+				1F7BE47514C07573009664D6 /* BaseAppKitUI.h */,
 				1F2C613614AB5D17006918F1 /* Images */,
 				1F2C60FC14AB5D17006918F1 /* BAActivityView.h */,
 				1F2C60FD14AB5D17006918F1 /* BAActivityView.m */,
@@ -455,6 +470,9 @@
 				1F2C618814AB5D17006918F1 /* UINavigationController+BATransitions.h in Headers */,
 				1F2C618A14AB5D17006918F1 /* UITableView+BALoading.h in Headers */,
 				1F2C618C14AB5D17006918F1 /* UIView+BACookie.h in Headers */,
+				1F7BE47C14C07573009664D6 /* BaseAppKit.h in Headers */,
+				1F7BE47D14C07573009664D6 /* BaseAppKitCore.h in Headers */,
+				1F7BE47E14C07573009664D6 /* BaseAppKitUI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
