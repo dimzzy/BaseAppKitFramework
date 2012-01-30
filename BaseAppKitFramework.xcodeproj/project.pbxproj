@@ -150,6 +150,9 @@
 		1FD8DEC014D727650068D009 /* BAGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8DEBA14D727650068D009 /* BAGridViewCell.m */; };
 		1FD8DEC114D727650068D009 /* BAScrollViewProxyDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD8DEBB14D727650068D009 /* BAScrollViewProxyDelegate.h */; };
 		1FD8DEC214D727650068D009 /* BAScrollViewProxyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8DEBC14D727650068D009 /* BAScrollViewProxyDelegate.m */; };
+		1FD8DEC914D72C320068D009 /* BAGridView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FD8DEB714D727640068D009 /* BAGridView.h */; };
+		1FD8DECA14D72C320068D009 /* BAGridViewCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FD8DEB914D727650068D009 /* BAGridViewCell.h */; };
+		1FD8DECB14D72C320068D009 /* BAScrollViewProxyDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FD8DEBB14D727650068D009 /* BAScrollViewProxyDelegate.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -159,6 +162,9 @@
 			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal/${PRODUCT_NAME}.framework/Versions/A/Headers/";
 			dstSubfolderSpec = 0;
 			files = (
+				1FD8DEC914D72C320068D009 /* BAGridView.h in CopyFiles */,
+				1FD8DECA14D72C320068D009 /* BAGridViewCell.h in CopyFiles */,
+				1FD8DECB14D72C320068D009 /* BAScrollViewProxyDelegate.h in CopyFiles */,
 				1F7BE48614C07617009664D6 /* BAActivityView.h in CopyFiles */,
 				1F7BE48714C07617009664D6 /* BACommon.h in CopyFiles */,
 				1F7BE48814C07617009664D6 /* BADataLoader.h in CopyFiles */,
