@@ -142,6 +142,14 @@
 		1F7BE4A714C07617009664D6 /* UINavigationController+BATransitions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614214AB5D17006918F1 /* UINavigationController+BATransitions.h */; };
 		1F7BE4A814C07617009664D6 /* UITableView+BALoading.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614414AB5D17006918F1 /* UITableView+BALoading.h */; };
 		1F7BE4A914C07617009664D6 /* UIView+BACookie.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614614AB5D17006918F1 /* UIView+BACookie.h */; };
+		1FD8DEB514D727330068D009 /* ba-refresh-black.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FD8DEB214D7272C0068D009 /* ba-refresh-black.png */; };
+		1FD8DEB614D727330068D009 /* ba-refresh-black@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FD8DEB314D7272C0068D009 /* ba-refresh-black@2x.png */; };
+		1FD8DEBD14D727650068D009 /* BAGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD8DEB714D727640068D009 /* BAGridView.h */; };
+		1FD8DEBE14D727650068D009 /* BAGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8DEB814D727640068D009 /* BAGridView.m */; };
+		1FD8DEBF14D727650068D009 /* BAGridViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD8DEB914D727650068D009 /* BAGridViewCell.h */; };
+		1FD8DEC014D727650068D009 /* BAGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8DEBA14D727650068D009 /* BAGridViewCell.m */; };
+		1FD8DEC114D727650068D009 /* BAScrollViewProxyDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD8DEBB14D727650068D009 /* BAScrollViewProxyDelegate.h */; };
+		1FD8DEC214D727650068D009 /* BAScrollViewProxyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8DEBC14D727650068D009 /* BAScrollViewProxyDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -199,6 +207,8 @@
 			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal/${PRODUCT_NAME}.framework/Versions/A/Resources/";
 			dstSubfolderSpec = 0;
 			files = (
+				1FD8DEB514D727330068D009 /* ba-refresh-black.png in CopyFiles */,
+				1FD8DEB614D727330068D009 /* ba-refresh-black@2x.png in CopyFiles */,
 				1F2C61C714AB613D006918F1 /* ba-sequence-item-active.png in CopyFiles */,
 				1F2C61C814AB613D006918F1 /* ba-sequence-item-active@2x.png in CopyFiles */,
 				1F2C61C914AB613D006918F1 /* ba-sequence-item-passive.png in CopyFiles */,
@@ -291,6 +301,14 @@
 		1F7BE47314C07573009664D6 /* BaseAppKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAppKit.h; sourceTree = "<group>"; };
 		1F7BE47414C07573009664D6 /* BaseAppKitCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAppKitCore.h; sourceTree = "<group>"; };
 		1F7BE47514C07573009664D6 /* BaseAppKitUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAppKitUI.h; sourceTree = "<group>"; };
+		1FD8DEB214D7272C0068D009 /* ba-refresh-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ba-refresh-black.png"; sourceTree = "<group>"; };
+		1FD8DEB314D7272C0068D009 /* ba-refresh-black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ba-refresh-black@2x.png"; sourceTree = "<group>"; };
+		1FD8DEB714D727640068D009 /* BAGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAGridView.h; sourceTree = "<group>"; };
+		1FD8DEB814D727640068D009 /* BAGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAGridView.m; sourceTree = "<group>"; };
+		1FD8DEB914D727650068D009 /* BAGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAGridViewCell.h; sourceTree = "<group>"; };
+		1FD8DEBA14D727650068D009 /* BAGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAGridViewCell.m; sourceTree = "<group>"; };
+		1FD8DEBB14D727650068D009 /* BAScrollViewProxyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAScrollViewProxyDelegate.h; sourceTree = "<group>"; };
+		1FD8DEBC14D727650068D009 /* BAScrollViewProxyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAScrollViewProxyDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -400,6 +418,12 @@
 				1F2C613314AB5D17006918F1 /* BAXMLLoader.m */,
 				1F2C613414AB5D17006918F1 /* BAXMLParserBase.h */,
 				1F2C613514AB5D17006918F1 /* BAXMLParserBase.m */,
+				1FD8DEB714D727640068D009 /* BAGridView.h */,
+				1FD8DEB814D727640068D009 /* BAGridView.m */,
+				1FD8DEB914D727650068D009 /* BAGridViewCell.h */,
+				1FD8DEBA14D727650068D009 /* BAGridViewCell.m */,
+				1FD8DEBB14D727650068D009 /* BAScrollViewProxyDelegate.h */,
+				1FD8DEBC14D727650068D009 /* BAScrollViewProxyDelegate.m */,
 				1F2C613B14AB5D17006918F1 /* NSDate+BADays.h */,
 				1F2C613C14AB5D17006918F1 /* NSDate+BADays.m */,
 				1F2C613D14AB5D17006918F1 /* NSDictionary+BAHTTP.h */,
@@ -419,6 +443,8 @@
 		1F2C613614AB5D17006918F1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1FD8DEB214D7272C0068D009 /* ba-refresh-black.png */,
+				1FD8DEB314D7272C0068D009 /* ba-refresh-black@2x.png */,
 				1F2C613714AB5D17006918F1 /* ba-sequence-item-active.png */,
 				1F2C613814AB5D17006918F1 /* ba-sequence-item-active@2x.png */,
 				1F2C613914AB5D17006918F1 /* ba-sequence-item-passive.png */,
@@ -473,6 +499,9 @@
 				1F7BE47C14C07573009664D6 /* BaseAppKit.h in Headers */,
 				1F7BE47D14C07573009664D6 /* BaseAppKitCore.h in Headers */,
 				1F7BE47E14C07573009664D6 /* BaseAppKitUI.h in Headers */,
+				1FD8DEBD14D727650068D009 /* BAGridView.h in Headers */,
+				1FD8DEBF14D727650068D009 /* BAGridViewCell.h in Headers */,
+				1FD8DEC114D727650068D009 /* BAScrollViewProxyDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +606,9 @@
 				1F2C618914AB5D17006918F1 /* UINavigationController+BATransitions.m in Sources */,
 				1F2C618B14AB5D17006918F1 /* UITableView+BALoading.m in Sources */,
 				1F2C618D14AB5D17006918F1 /* UIView+BACookie.m in Sources */,
+				1FD8DEBE14D727650068D009 /* BAGridView.m in Sources */,
+				1FD8DEC014D727650068D009 /* BAGridViewCell.m in Sources */,
+				1FD8DEC214D727650068D009 /* BAScrollViewProxyDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
