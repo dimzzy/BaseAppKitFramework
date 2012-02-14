@@ -137,7 +137,6 @@
 		1F7BE4A214C07617009664D6 /* BAXMLLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613214AB5D17006918F1 /* BAXMLLoader.h */; };
 		1F7BE4A314C07617009664D6 /* BAXMLParserBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613414AB5D17006918F1 /* BAXMLParserBase.h */; };
 		1F7BE4A414C07617009664D6 /* NSDate+BADays.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613B14AB5D17006918F1 /* NSDate+BADays.h */; };
-		1F7BE4A514C07617009664D6 /* NSDictionary+BAHTTP.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613D14AB5D17006918F1 /* NSDictionary+BAHTTP.h */; };
 		1F7BE4A614C07617009664D6 /* NSString+BACoding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613F14AB5D17006918F1 /* NSString+BACoding.h */; };
 		1F7BE4A714C07617009664D6 /* UINavigationController+BATransitions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614214AB5D17006918F1 /* UINavigationController+BATransitions.h */; };
 		1F7BE4A814C07617009664D6 /* UITableView+BALoading.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614414AB5D17006918F1 /* UITableView+BALoading.h */; };
@@ -196,7 +195,6 @@
 				1F7BE4A214C07617009664D6 /* BAXMLLoader.h in CopyFiles */,
 				1F7BE4A314C07617009664D6 /* BAXMLParserBase.h in CopyFiles */,
 				1F7BE4A414C07617009664D6 /* NSDate+BADays.h in CopyFiles */,
-				1F7BE4A514C07617009664D6 /* NSDictionary+BAHTTP.h in CopyFiles */,
 				1F7BE4A614C07617009664D6 /* NSString+BACoding.h in CopyFiles */,
 				1F7BE4A714C07617009664D6 /* UINavigationController+BATransitions.h in CopyFiles */,
 				1F7BE4A814C07617009664D6 /* UITableView+BALoading.h in CopyFiles */,
