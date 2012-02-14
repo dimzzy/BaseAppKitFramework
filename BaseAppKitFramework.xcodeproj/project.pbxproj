@@ -84,8 +84,6 @@
 		1F2C618114AB5D17006918F1 /* BAXMLParserBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C613514AB5D17006918F1 /* BAXMLParserBase.m */; };
 		1F2C618214AB5D17006918F1 /* NSDate+BADays.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C613B14AB5D17006918F1 /* NSDate+BADays.h */; };
 		1F2C618314AB5D17006918F1 /* NSDate+BADays.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C613C14AB5D17006918F1 /* NSDate+BADays.m */; };
-		1F2C618414AB5D17006918F1 /* NSDictionary+BAHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C613D14AB5D17006918F1 /* NSDictionary+BAHTTP.h */; };
-		1F2C618514AB5D17006918F1 /* NSDictionary+BAHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C613E14AB5D17006918F1 /* NSDictionary+BAHTTP.m */; };
 		1F2C618614AB5D17006918F1 /* NSString+BACoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C613F14AB5D17006918F1 /* NSString+BACoding.h */; };
 		1F2C618714AB5D17006918F1 /* NSString+BACoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C614014AB5D17006918F1 /* NSString+BACoding.m */; };
 		1F2C618814AB5D17006918F1 /* UINavigationController+BATransitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C614214AB5D17006918F1 /* UINavigationController+BATransitions.h */; };
@@ -290,8 +288,6 @@
 		1F2C613A14AB5D17006918F1 /* ba-sequence-item-passive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ba-sequence-item-passive@2x.png"; sourceTree = "<group>"; };
 		1F2C613B14AB5D17006918F1 /* NSDate+BADays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BADays.h"; sourceTree = "<group>"; };
 		1F2C613C14AB5D17006918F1 /* NSDate+BADays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BADays.m"; sourceTree = "<group>"; };
-		1F2C613D14AB5D17006918F1 /* NSDictionary+BAHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BAHTTP.h"; sourceTree = "<group>"; };
-		1F2C613E14AB5D17006918F1 /* NSDictionary+BAHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BAHTTP.m"; sourceTree = "<group>"; };
 		1F2C613F14AB5D17006918F1 /* NSString+BACoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BACoding.h"; sourceTree = "<group>"; };
 		1F2C614014AB5D17006918F1 /* NSString+BACoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BACoding.m"; sourceTree = "<group>"; };
 		1F2C614214AB5D17006918F1 /* UINavigationController+BATransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+BATransitions.h"; sourceTree = "<group>"; };
@@ -430,8 +426,6 @@
 				1FD8DEBC14D727650068D009 /* BAScrollViewProxyDelegate.m */,
 				1F2C613B14AB5D17006918F1 /* NSDate+BADays.h */,
 				1F2C613C14AB5D17006918F1 /* NSDate+BADays.m */,
-				1F2C613D14AB5D17006918F1 /* NSDictionary+BAHTTP.h */,
-				1F2C613E14AB5D17006918F1 /* NSDictionary+BAHTTP.m */,
 				1F2C613F14AB5D17006918F1 /* NSString+BACoding.h */,
 				1F2C614014AB5D17006918F1 /* NSString+BACoding.m */,
 				1F2C614214AB5D17006918F1 /* UINavigationController+BATransitions.h */,
@@ -495,7 +489,6 @@
 				1F2C617E14AB5D17006918F1 /* BAXMLLoader.h in Headers */,
 				1F2C618014AB5D17006918F1 /* BAXMLParserBase.h in Headers */,
 				1F2C618214AB5D17006918F1 /* NSDate+BADays.h in Headers */,
-				1F2C618414AB5D17006918F1 /* NSDictionary+BAHTTP.h in Headers */,
 				1F2C618614AB5D17006918F1 /* NSString+BACoding.h in Headers */,
 				1F2C618814AB5D17006918F1 /* UINavigationController+BATransitions.h in Headers */,
 				1F2C618A14AB5D17006918F1 /* UITableView+BALoading.h in Headers */,
@@ -605,7 +598,6 @@
 				1F2C617F14AB5D17006918F1 /* BAXMLLoader.m in Sources */,
 				1F2C618114AB5D17006918F1 /* BAXMLParserBase.m in Sources */,
 				1F2C618314AB5D17006918F1 /* NSDate+BADays.m in Sources */,
-				1F2C618514AB5D17006918F1 /* NSDictionary+BAHTTP.m in Sources */,
 				1F2C618714AB5D17006918F1 /* NSString+BACoding.m in Sources */,
 				1F2C618914AB5D17006918F1 /* UINavigationController+BATransitions.m in Sources */,
 				1F2C618B14AB5D17006918F1 /* UITableView+BALoading.m in Sources */,
