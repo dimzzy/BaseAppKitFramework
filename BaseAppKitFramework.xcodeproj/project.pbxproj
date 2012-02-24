@@ -141,6 +141,10 @@
 		1F7BE4A914C07617009664D6 /* UIView+BACookie.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614614AB5D17006918F1 /* UIView+BACookie.h */; };
 		1FA6FA1514F78A2600471096 /* BARemoteJSON.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FA6FA0A14F787FF00471096 /* BARemoteJSON.h */; };
 		1FA6FA1614F78A2600471096 /* BARuntime.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FA6FA0C14F787FF00471096 /* BARuntime.h */; };
+		1FA6FA1E14F78B4400471096 /* BARemoteJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6FA0B14F787FF00471096 /* BARemoteJSON.m */; };
+		1FA6FA2014F78B5000471096 /* BARuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6FA0D14F787FF00471096 /* BARuntime.m */; };
+		1FA6FA2114F78B9300471096 /* BARemoteJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA6FA0A14F787FF00471096 /* BARemoteJSON.h */; };
+		1FA6FA2214F78B9B00471096 /* BARuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA6FA0C14F787FF00471096 /* BARuntime.h */; };
 		1FD8DEB514D727330068D009 /* ba-refresh-black.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FD8DEB214D7272C0068D009 /* ba-refresh-black.png */; };
 		1FD8DEB614D727330068D009 /* ba-refresh-black@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FD8DEB314D7272C0068D009 /* ba-refresh-black@2x.png */; };
 		1FD8DEBD14D727650068D009 /* BAGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD8DEB714D727640068D009 /* BAGridView.h */; };
@@ -511,6 +515,8 @@
 				1FD8DEBD14D727650068D009 /* BAGridView.h in Headers */,
 				1FD8DEBF14D727650068D009 /* BAGridViewCell.h in Headers */,
 				1FD8DEC114D727650068D009 /* BAScrollViewProxyDelegate.h in Headers */,
+				1FA6FA2114F78B9300471096 /* BARemoteJSON.h in Headers */,
+				1FA6FA2214F78B9B00471096 /* BARuntime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +623,8 @@
 				1FD8DEBE14D727650068D009 /* BAGridView.m in Sources */,
 				1FD8DEC014D727650068D009 /* BAGridViewCell.m in Sources */,
 				1FD8DEC214D727650068D009 /* BAScrollViewProxyDelegate.m in Sources */,
+				1FA6FA1E14F78B4400471096 /* BARemoteJSON.m in Sources */,
+				1FA6FA2014F78B5000471096 /* BARuntime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
