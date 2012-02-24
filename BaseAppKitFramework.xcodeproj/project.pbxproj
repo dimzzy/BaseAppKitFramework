@@ -139,6 +139,8 @@
 		1F7BE4A714C07617009664D6 /* UINavigationController+BATransitions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614214AB5D17006918F1 /* UINavigationController+BATransitions.h */; };
 		1F7BE4A814C07617009664D6 /* UITableView+BALoading.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614414AB5D17006918F1 /* UITableView+BALoading.h */; };
 		1F7BE4A914C07617009664D6 /* UIView+BACookie.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C614614AB5D17006918F1 /* UIView+BACookie.h */; };
+		1FA6FA1514F78A2600471096 /* BARemoteJSON.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FA6FA0A14F787FF00471096 /* BARemoteJSON.h */; };
+		1FA6FA1614F78A2600471096 /* BARuntime.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FA6FA0C14F787FF00471096 /* BARuntime.h */; };
 		1FD8DEB514D727330068D009 /* ba-refresh-black.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FD8DEB214D7272C0068D009 /* ba-refresh-black.png */; };
 		1FD8DEB614D727330068D009 /* ba-refresh-black@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FD8DEB314D7272C0068D009 /* ba-refresh-black@2x.png */; };
 		1FD8DEBD14D727650068D009 /* BAGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD8DEB714D727640068D009 /* BAGridView.h */; };
@@ -159,6 +161,8 @@
 			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal/${PRODUCT_NAME}.framework/Versions/A/Headers/";
 			dstSubfolderSpec = 0;
 			files = (
+				1FA6FA1514F78A2600471096 /* BARemoteJSON.h in CopyFiles */,
+				1FA6FA1614F78A2600471096 /* BARuntime.h in CopyFiles */,
 				1FD8DEC914D72C320068D009 /* BAGridView.h in CopyFiles */,
 				1FD8DECA14D72C320068D009 /* BAGridViewCell.h in CopyFiles */,
 				1FD8DECB14D72C320068D009 /* BAScrollViewProxyDelegate.h in CopyFiles */,
@@ -360,16 +364,16 @@
 		1F2C60FA14AB5D17006918F1 /* BaseAppKit */ = {
 			isa = PBXGroup;
 			children = (
-				1FA6FA0A14F787FF00471096 /* BARemoteJSON.h */,
-				1FA6FA0B14F787FF00471096 /* BARemoteJSON.m */,
-				1FA6FA0C14F787FF00471096 /* BARuntime.h */,
-				1FA6FA0D14F787FF00471096 /* BARuntime.m */,
 				1F7BE47314C07573009664D6 /* BaseAppKit.h */,
 				1F7BE47414C07573009664D6 /* BaseAppKitCore.h */,
 				1F7BE47514C07573009664D6 /* BaseAppKitUI.h */,
 				1F2C613614AB5D17006918F1 /* Images */,
 				1F2C60FC14AB5D17006918F1 /* BAActivityView.h */,
 				1F2C60FD14AB5D17006918F1 /* BAActivityView.m */,
+				1FA6FA0A14F787FF00471096 /* BARemoteJSON.h */,
+				1FA6FA0B14F787FF00471096 /* BARemoteJSON.m */,
+				1FA6FA0C14F787FF00471096 /* BARuntime.h */,
+				1FA6FA0D14F787FF00471096 /* BARuntime.m */,
 				1F2C60FE14AB5D17006918F1 /* BACommon.h */,
 				1F2C60FF14AB5D17006918F1 /* BADataLoader.h */,
 				1F2C610014AB5D17006918F1 /* BADataLoader.m */,
