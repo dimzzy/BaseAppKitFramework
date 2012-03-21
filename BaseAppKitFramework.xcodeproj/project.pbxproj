@@ -156,6 +156,10 @@
 		1FD8DEC114D727650068D009 /* BAScrollViewProxyDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD8DEBB14D727650068D009 /* BAScrollViewProxyDelegate.h */; };
 		1FD8DEC214D727650068D009 /* BAScrollViewProxyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8DEBC14D727650068D009 /* BAScrollViewProxyDelegate.m */; };
 		1FD8DECB14D72C320068D009 /* BAScrollViewProxyDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FD8DEBB14D727650068D009 /* BAScrollViewProxyDelegate.h */; };
+		1FE8D9C61519ED3700EA38C1 /* BAGroupedPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE8D9C31519ED3700EA38C1 /* BAGroupedPageControl.h */; };
+		1FE8D9C71519ED3700EA38C1 /* BAGroupedPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8D9C41519ED3700EA38C1 /* BAGroupedPageControl.m */; };
+		1FE8D9C81519ED3700EA38C1 /* BAMeshViewCell+Owner.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE8D9C51519ED3700EA38C1 /* BAMeshViewCell+Owner.h */; };
+		1FE8D9CA1519ED8300EA38C1 /* BAGroupedPageControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FE8D9C31519ED3700EA38C1 /* BAGroupedPageControl.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -165,6 +169,7 @@
 			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal/${PRODUCT_NAME}.framework/Versions/A/Headers/";
 			dstSubfolderSpec = 0;
 			files = (
+				1FE8D9CA1519ED8300EA38C1 /* BAGroupedPageControl.h in CopyFiles */,
 				1F8AB11A14FFB6A500703CF4 /* BAMeshView.h in CopyFiles */,
 				1F8AB11B14FFB6A500703CF4 /* BAMeshViewCell.h in CopyFiles */,
 				1FA6FA1514F78A2600471096 /* BARemoteJSON.h in CopyFiles */,
@@ -321,6 +326,9 @@
 		1FD8DEB314D7272C0068D009 /* ba-refresh-black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ba-refresh-black@2x.png"; sourceTree = "<group>"; };
 		1FD8DEBB14D727650068D009 /* BAScrollViewProxyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAScrollViewProxyDelegate.h; sourceTree = "<group>"; };
 		1FD8DEBC14D727650068D009 /* BAScrollViewProxyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAScrollViewProxyDelegate.m; sourceTree = "<group>"; };
+		1FE8D9C31519ED3700EA38C1 /* BAGroupedPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAGroupedPageControl.h; sourceTree = "<group>"; };
+		1FE8D9C41519ED3700EA38C1 /* BAGroupedPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAGroupedPageControl.m; sourceTree = "<group>"; };
+		1FE8D9C51519ED3700EA38C1 /* BAMeshViewCell+Owner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BAMeshViewCell+Owner.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -399,6 +407,8 @@
 				1F2C611014AB5D17006918F1 /* BANetworkActivity.m */,
 				1F2C611114AB5D17006918F1 /* BAPageControl.h */,
 				1F2C611214AB5D17006918F1 /* BAPageControl.m */,
+				1FE8D9C31519ED3700EA38C1 /* BAGroupedPageControl.h */,
+				1FE8D9C41519ED3700EA38C1 /* BAGroupedPageControl.m */,
 				1F2C611314AB5D17006918F1 /* BAPager.h */,
 				1F2C611414AB5D17006918F1 /* BAPager.m */,
 				1F2C611514AB5D17006918F1 /* BAPersistentCache.h */,
@@ -423,6 +433,7 @@
 				1F2C612814AB5D17006918F1 /* BASwitchCell.m */,
 				1F8AB11214FFB66C00703CF4 /* BAMeshView.h */,
 				1F8AB11314FFB66C00703CF4 /* BAMeshView.m */,
+				1FE8D9C51519ED3700EA38C1 /* BAMeshViewCell+Owner.h */,
 				1F8AB11414FFB66C00703CF4 /* BAMeshViewCell.h */,
 				1F8AB11514FFB66C00703CF4 /* BAMeshViewCell.m */,
 				1F2C612914AB5D17006918F1 /* BAToggleBar.h */,
@@ -517,6 +528,8 @@
 				1FA6FA2214F78B9B00471096 /* BARuntime.h in Headers */,
 				1F8AB11614FFB66C00703CF4 /* BAMeshView.h in Headers */,
 				1F8AB11814FFB66C00703CF4 /* BAMeshViewCell.h in Headers */,
+				1FE8D9C61519ED3700EA38C1 /* BAGroupedPageControl.h in Headers */,
+				1FE8D9C81519ED3700EA38C1 /* BAMeshViewCell+Owner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,6 +638,7 @@
 				1FA6FA2014F78B5000471096 /* BARuntime.m in Sources */,
 				1F8AB11714FFB66C00703CF4 /* BAMeshView.m in Sources */,
 				1F8AB11914FFB66C00703CF4 /* BAMeshViewCell.m in Sources */,
+				1FE8D9C71519ED3700EA38C1 /* BAGroupedPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
