@@ -98,6 +98,9 @@
 		1F2C61C814AB613D006918F1 /* ba-sequence-item-active@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613814AB5D17006918F1 /* ba-sequence-item-active@2x.png */; };
 		1F2C61C914AB613D006918F1 /* ba-sequence-item-passive.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613914AB5D17006918F1 /* ba-sequence-item-passive.png */; };
 		1F2C61CA14AB613D006918F1 /* ba-sequence-item-passive@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2C613A14AB5D17006918F1 /* ba-sequence-item-passive@2x.png */; };
+		1F72649C151C76F000CC51B9 /* BACustomPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F72649A151C76F000CC51B9 /* BACustomPageControl.h */; };
+		1F72649D151C76F000CC51B9 /* BACustomPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F72649B151C76F000CC51B9 /* BACustomPageControl.m */; };
+		1F72649F151C770A00CC51B9 /* BACustomPageControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F72649A151C76F000CC51B9 /* BACustomPageControl.h */; };
 		1F7BE47C14C07573009664D6 /* BaseAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7BE47314C07573009664D6 /* BaseAppKit.h */; };
 		1F7BE47D14C07573009664D6 /* BaseAppKitCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7BE47414C07573009664D6 /* BaseAppKitCore.h */; };
 		1F7BE47E14C07573009664D6 /* BaseAppKitUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7BE47514C07573009664D6 /* BaseAppKitUI.h */; };
@@ -169,6 +172,7 @@
 			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal/${PRODUCT_NAME}.framework/Versions/A/Headers/";
 			dstSubfolderSpec = 0;
 			files = (
+				1F72649F151C770A00CC51B9 /* BACustomPageControl.h in CopyFiles */,
 				1FE8D9CA1519ED8300EA38C1 /* BAGroupedPageControl.h in CopyFiles */,
 				1F8AB11A14FFB6A500703CF4 /* BAMeshView.h in CopyFiles */,
 				1F8AB11B14FFB6A500703CF4 /* BAMeshViewCell.h in CopyFiles */,
@@ -311,6 +315,8 @@
 		1F2C614714AB5D17006918F1 /* UIView+BACookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BACookie.m"; sourceTree = "<group>"; };
 		1F2C61B814AB5E3F006918F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1F2C61BA14AB5E5A006918F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1F72649A151C76F000CC51B9 /* BACustomPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACustomPageControl.h; sourceTree = "<group>"; };
+		1F72649B151C76F000CC51B9 /* BACustomPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACustomPageControl.m; sourceTree = "<group>"; };
 		1F7BE47314C07573009664D6 /* BaseAppKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAppKit.h; sourceTree = "<group>"; };
 		1F7BE47414C07573009664D6 /* BaseAppKitCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAppKitCore.h; sourceTree = "<group>"; };
 		1F7BE47514C07573009664D6 /* BaseAppKitUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAppKitUI.h; sourceTree = "<group>"; };
@@ -407,6 +413,8 @@
 				1F2C611014AB5D17006918F1 /* BANetworkActivity.m */,
 				1F2C611114AB5D17006918F1 /* BAPageControl.h */,
 				1F2C611214AB5D17006918F1 /* BAPageControl.m */,
+				1F72649A151C76F000CC51B9 /* BACustomPageControl.h */,
+				1F72649B151C76F000CC51B9 /* BACustomPageControl.m */,
 				1FE8D9C31519ED3700EA38C1 /* BAGroupedPageControl.h */,
 				1FE8D9C41519ED3700EA38C1 /* BAGroupedPageControl.m */,
 				1F2C611314AB5D17006918F1 /* BAPager.h */,
@@ -530,6 +538,7 @@
 				1F8AB11814FFB66C00703CF4 /* BAMeshViewCell.h in Headers */,
 				1FE8D9C61519ED3700EA38C1 /* BAGroupedPageControl.h in Headers */,
 				1FE8D9C81519ED3700EA38C1 /* BAMeshViewCell+Owner.h in Headers */,
+				1F72649C151C76F000CC51B9 /* BACustomPageControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +648,7 @@
 				1F8AB11714FFB66C00703CF4 /* BAMeshView.m in Sources */,
 				1F8AB11914FFB66C00703CF4 /* BAMeshViewCell.m in Sources */,
 				1FE8D9C71519ED3700EA38C1 /* BAGroupedPageControl.m in Sources */,
+				1F72649D151C76F000CC51B9 /* BACustomPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
