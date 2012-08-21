@@ -148,6 +148,12 @@
 		1F8AB11914FFB66C00703CF4 /* BAMeshViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AB11514FFB66C00703CF4 /* BAMeshViewCell.m */; };
 		1F8AB11A14FFB6A500703CF4 /* BAMeshView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F8AB11214FFB66C00703CF4 /* BAMeshView.h */; };
 		1F8AB11B14FFB6A500703CF4 /* BAMeshViewCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F8AB11414FFB66C00703CF4 /* BAMeshViewCell.h */; };
+		1F8C536115E438BC0085C04E /* BAJSONViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8C535D15E438BC0085C04E /* BAJSONViewController.h */; };
+		1F8C536215E438BC0085C04E /* BAJSONViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C535E15E438BC0085C04E /* BAJSONViewController.m */; };
+		1F8C536315E438BC0085C04E /* BATextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8C535F15E438BC0085C04E /* BATextViewController.h */; };
+		1F8C536415E438BC0085C04E /* BATextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C536015E438BC0085C04E /* BATextViewController.m */; };
+		1F8C536615E438DB0085C04E /* BAJSONViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F8C535D15E438BC0085C04E /* BAJSONViewController.h */; };
+		1F8C536715E438DB0085C04E /* BATextViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F8C535F15E438BC0085C04E /* BATextViewController.h */; };
 		1FA6FA1514F78A2600471096 /* BARemoteJSON.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FA6FA0A14F787FF00471096 /* BARemoteJSON.h */; };
 		1FA6FA1614F78A2600471096 /* BARuntime.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FA6FA0C14F787FF00471096 /* BARuntime.h */; };
 		1FA6FA1E14F78B4400471096 /* BARemoteJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6FA0B14F787FF00471096 /* BARemoteJSON.m */; };
@@ -172,6 +178,8 @@
 			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal/${PRODUCT_NAME}.framework/Versions/A/Headers/";
 			dstSubfolderSpec = 0;
 			files = (
+				1F8C536615E438DB0085C04E /* BAJSONViewController.h in CopyFiles */,
+				1F8C536715E438DB0085C04E /* BATextViewController.h in CopyFiles */,
 				1F72649F151C770A00CC51B9 /* BACustomPageControl.h in CopyFiles */,
 				1FE8D9CA1519ED8300EA38C1 /* BAGroupedPageControl.h in CopyFiles */,
 				1F8AB11A14FFB6A500703CF4 /* BAMeshView.h in CopyFiles */,
@@ -324,6 +332,10 @@
 		1F8AB11314FFB66C00703CF4 /* BAMeshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAMeshView.m; sourceTree = "<group>"; };
 		1F8AB11414FFB66C00703CF4 /* BAMeshViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAMeshViewCell.h; sourceTree = "<group>"; };
 		1F8AB11514FFB66C00703CF4 /* BAMeshViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAMeshViewCell.m; sourceTree = "<group>"; };
+		1F8C535D15E438BC0085C04E /* BAJSONViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAJSONViewController.h; sourceTree = "<group>"; };
+		1F8C535E15E438BC0085C04E /* BAJSONViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAJSONViewController.m; sourceTree = "<group>"; };
+		1F8C535F15E438BC0085C04E /* BATextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATextViewController.h; sourceTree = "<group>"; };
+		1F8C536015E438BC0085C04E /* BATextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATextViewController.m; sourceTree = "<group>"; };
 		1FA6FA0A14F787FF00471096 /* BARemoteJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARemoteJSON.h; sourceTree = "<group>"; };
 		1FA6FA0B14F787FF00471096 /* BARemoteJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARemoteJSON.m; sourceTree = "<group>"; };
 		1FA6FA0C14F787FF00471096 /* BARuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARuntime.h; sourceTree = "<group>"; };
@@ -382,6 +394,10 @@
 		1F2C60FA14AB5D17006918F1 /* BaseAppKit */ = {
 			isa = PBXGroup;
 			children = (
+				1F8C535D15E438BC0085C04E /* BAJSONViewController.h */,
+				1F8C535E15E438BC0085C04E /* BAJSONViewController.m */,
+				1F8C535F15E438BC0085C04E /* BATextViewController.h */,
+				1F8C536015E438BC0085C04E /* BATextViewController.m */,
 				1F7BE47314C07573009664D6 /* BaseAppKit.h */,
 				1F7BE47414C07573009664D6 /* BaseAppKitCore.h */,
 				1F7BE47514C07573009664D6 /* BaseAppKitUI.h */,
@@ -539,6 +555,8 @@
 				1FE8D9C61519ED3700EA38C1 /* BAGroupedPageControl.h in Headers */,
 				1FE8D9C81519ED3700EA38C1 /* BAMeshViewCell+Owner.h in Headers */,
 				1F72649C151C76F000CC51B9 /* BACustomPageControl.h in Headers */,
+				1F8C536115E438BC0085C04E /* BAJSONViewController.h in Headers */,
+				1F8C536315E438BC0085C04E /* BATextViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,6 +667,8 @@
 				1F8AB11914FFB66C00703CF4 /* BAMeshViewCell.m in Sources */,
 				1FE8D9C71519ED3700EA38C1 /* BAGroupedPageControl.m in Sources */,
 				1F72649D151C76F000CC51B9 /* BACustomPageControl.m in Sources */,
+				1F8C536215E438BC0085C04E /* BAJSONViewController.m in Sources */,
+				1F8C536415E438BC0085C04E /* BATextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
