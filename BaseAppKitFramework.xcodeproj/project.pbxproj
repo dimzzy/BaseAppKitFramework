@@ -23,6 +23,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		1F00DA0C15E7730400CA8FD8 /* BANetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F00DA0A15E7730400CA8FD8 /* BANetworkReachability.h */; };
+		1F00DA0D15E7730400CA8FD8 /* BANetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F00DA0B15E7730400CA8FD8 /* BANetworkReachability.m */; };
+		1F00DA0F15E7731C00CA8FD8 /* BANetworkReachability.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F00DA0A15E7730400CA8FD8 /* BANetworkReachability.h */; };
 		1F2C60EE14AB5C90006918F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2C60ED14AB5C90006918F1 /* Foundation.framework */; };
 		1F2C614814AB5D17006918F1 /* BAActivityView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2C60FC14AB5D17006918F1 /* BAActivityView.h */; };
 		1F2C614914AB5D17006918F1 /* BAActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C60FD14AB5D17006918F1 /* BAActivityView.m */; };
@@ -181,6 +184,7 @@
 			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal/${PRODUCT_NAME}.framework/Versions/A/Headers/";
 			dstSubfolderSpec = 0;
 			files = (
+				1F00DA0F15E7731C00CA8FD8 /* BANetworkReachability.h in CopyFiles */,
 				1F8C538A15E447FA0085C04E /* BAWebViewController.h in CopyFiles */,
 				1F8C536615E438DB0085C04E /* BAJSONViewController.h in CopyFiles */,
 				1F8C536715E438DB0085C04E /* BATextViewController.h in CopyFiles */,
@@ -250,6 +254,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F00DA0A15E7730400CA8FD8 /* BANetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BANetworkReachability.h; sourceTree = "<group>"; };
+		1F00DA0B15E7730400CA8FD8 /* BANetworkReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BANetworkReachability.m; sourceTree = "<group>"; };
 		1F2C60EA14AB5C90006918F1 /* libBaseAppKitFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBaseAppKitFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2C60ED14AB5C90006918F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1F2C60F114AB5C90006918F1 /* BaseAppKitFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BaseAppKitFramework-Prefix.pch"; path = "BaseAppKitFramework/BaseAppKitFramework-Prefix.pch"; sourceTree = "<group>"; };
@@ -400,6 +406,8 @@
 		1F2C60FA14AB5D17006918F1 /* BaseAppKit */ = {
 			isa = PBXGroup;
 			children = (
+				1F00DA0A15E7730400CA8FD8 /* BANetworkReachability.h */,
+				1F00DA0B15E7730400CA8FD8 /* BANetworkReachability.m */,
 				1F8C538515E447F10085C04E /* BAWebViewController.h */,
 				1F8C538615E447F10085C04E /* BAWebViewController.m */,
 				1F8C535D15E438BC0085C04E /* BAJSONViewController.h */,
@@ -566,6 +574,7 @@
 				1F8C536115E438BC0085C04E /* BAJSONViewController.h in Headers */,
 				1F8C536315E438BC0085C04E /* BATextViewController.h in Headers */,
 				1F8C538715E447F10085C04E /* BAWebViewController.h in Headers */,
+				1F00DA0C15E7730400CA8FD8 /* BANetworkReachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,6 +688,7 @@
 				1F8C536215E438BC0085C04E /* BAJSONViewController.m in Sources */,
 				1F8C536415E438BC0085C04E /* BATextViewController.m in Sources */,
 				1F8C538815E447F10085C04E /* BAWebViewController.m in Sources */,
+				1F00DA0D15E7730400CA8FD8 /* BANetworkReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
